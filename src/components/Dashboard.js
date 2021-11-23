@@ -16,9 +16,9 @@ export default function Dashboard() {
     history.push('/homepage')
   }
 
-  const handleRoute2 = () => {
-    history.push('/authors')
-  }
+  // const handleRoute2 = () => {
+  //   history.push('/authors')
+  // }
 
   return (
     <>
@@ -67,7 +67,7 @@ export default function Dashboard() {
                 Visit our homepage
               </Button>
 
-              <Button
+              {/* <Button
                 bg={'blackAlpha.300'}
                 rounded={'full'}
                 color={'white'}
@@ -77,7 +77,7 @@ export default function Dashboard() {
                 }}
               >
                 Meet the authors
-              </Button>
+              </Button> */}
             </Stack>
           </Stack>
         </VStack>
