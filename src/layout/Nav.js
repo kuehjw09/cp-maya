@@ -6,13 +6,11 @@ import {
   Avatar,
   HStack,
   Link,
-  IconButton,
   Button,
   Menu,
   MenuButton,
   MenuList,
   MenuItem,
-  useDisclosure,
   useColorModeValue,
   Stack,
   GridItem,
@@ -21,33 +19,10 @@ import {
   Center,
 } from '@chakra-ui/react'
 
+// import { HomeIcon } from '@chakra-ui/icons'
 // import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react'
 
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
-
-const Links = ['Home']
-
-const NavLink = (Links) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
-    }}
-    href={Links[0] ? '/homepage' : '/quiz'}
-    onClick={() => {
-      console.log()
-    }}
-  >
-    {Links}
-  </Link>
-)
-
-export default function Simple() {
-  const { isOpen, onOpen, onClose } = useDisclosure()
-
+export default function Nav() {
   return (
     <>
       <GridItem colSpan='5'>
@@ -58,19 +33,8 @@ export default function Simple() {
           boxShadow={'xl'}
         >
           <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-            <IconButton
-              size={'md'}
-              icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-              aria-label={'Open Menu'}
-              display={{ md: 'none' }}
-              onClick={isOpen ? onClose : onOpen}
-            />
             <HStack spacing={8} alignItems={'center'}>
-              <HStack
-                as={'nav'}
-                spacing={4}
-                display={{ base: 'none', md: 'flex' }}
-              >
+              <HStack as={'nav'} spacing={4} display={'flex'}>
                 <Link
                   p={3}
                   rounded={'md'}
@@ -78,9 +42,9 @@ export default function Simple() {
                     textDecoration: 'none',
                     bg: useColorModeValue('gray.200', 'gray.700'),
                   }}
-                  href={Links[0] ? '/homepage' : '/quiz'}
+                  href={'/homepage'}
                 >
-                  Homepage
+                  Home
                 </Link>
               </HStack>
             </HStack>
@@ -92,12 +56,17 @@ export default function Simple() {
               >
                 <Heading
                   fontWeight={'thin'}
-                  fontSize={{ base: '2xl', md: '4xl' }}
+                  textAlign={'center'}
+                  fontSize={{ base: 'md', sm: '2xl', md: '4xl' }}
                 >
                   The Classic Period Maya,{' '}
                 </Heading>
                 <Stack direction={'row-reverse'}>
-                  <Text textAlign='right' fontWeight={'semibold'}>
+                  <Text
+                    textAlign='right'
+                    fontWeight={'semibold'}
+                    fontSize={{ base: 'xs', md: 'lg' }}
+                  >
                     250 - 900 C.E.
                   </Text>
                   <Text></Text>
@@ -129,16 +98,6 @@ export default function Simple() {
               </Menu>
             </Flex>
           </Flex>
-
-          {isOpen ? (
-            <Box pb={4} display={{ md: 'none' }}>
-              <Stack as={'nav'} spacing={4}>
-                {Links.map((link) => (
-                  <NavLink key={link}>{link}</NavLink>
-                ))}
-              </Stack>
-            </Box>
-          ) : null}
         </Box>
       </GridItem>
     </>
