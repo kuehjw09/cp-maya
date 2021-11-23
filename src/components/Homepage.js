@@ -10,7 +10,7 @@ function Homepage() {
   return (
     <>
       <GridItem colStart={1} colSpan={5}>
-        <SimpleGrid columns={1} spacing={9} px={9}>
+        <SimpleGrid columns={1} spacing={9}>
           <AspectCard />
           <AspectCardJalaine />
           <AspectCardMariela />
