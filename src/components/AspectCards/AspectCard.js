@@ -22,6 +22,10 @@ export default function AspectCard() {
         rounded={'md'}
         p={6}
         overflow={'hidden'}
+        transition='0.3s ease-in-out'
+        _hover={{
+          transform: 'scale(1.02)',
+        }}
       >
         <LinkOverlay href='/maya-religion'>
           <Box
@@ -41,9 +45,6 @@ export default function AspectCard() {
               objectFit={'cover'}
               transition='0.3s ease-in-out'
               height='297px'
-              _hover={{
-                transform: 'scale(1.05)',
-              }}
             />
           </Box>
         </LinkOverlay>

@@ -22,6 +22,10 @@ export default function AspectCardMariela() {
         rounded={'md'}
         p={6}
         overflow={'hidden'}
+        transition='0.3s ease-in-out'
+        _hover={{
+          transform: 'scale(1.02)',
+        }}
       >
         <LinkOverlay href='/maya-agriculture'>
           <Box
@@ -42,9 +46,6 @@ export default function AspectCardMariela() {
               transition='0.3s ease-in-out'
               width={'120%'}
               height='297px'
-              _hover={{
-                transform: 'scale(1.05)',
-              }}
             />
           </Box>
         </LinkOverlay>

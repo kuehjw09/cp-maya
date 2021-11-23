@@ -22,6 +22,10 @@ export default function AspectCardBruce() {
         rounded={'md'}
         p={6}
         overflow={'hidden'}
+        transition='0.3s ease-in-out'
+        _hover={{
+          transform: 'scale(1.02)',
+        }}
       >
         <LinkOverlay href='/maya-architecture'>
           <Box
@@ -42,9 +46,6 @@ export default function AspectCardBruce() {
               transition={'0.3s ease-in-out'}
               width={'fill'}
               height={'297px'}
-              _hover={{
-                transform: 'scale(1.05)',
-              }}
             />
           </Box>
         </LinkOverlay>
