@@ -14,7 +14,7 @@ import { LinkBox, LinkOverlay } from '@chakra-ui/react'
 
 export default function AspectCardBruce() {
   return (
-    <Center py={6}>
+    <Center p={3} maxW={'100vw'}>
       <LinkBox>
         <Box
           maxW={'445px'}

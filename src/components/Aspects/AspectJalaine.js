@@ -22,7 +22,7 @@ const AspectJalaine = () => {
         rounded={'md'}
         p={4}
       >
-        <Stack ml={9} direction={'column'}>
+        <Stack ml={3} direction={'column'}>
           <Text
             color={'primary'}
             textTransform={'uppercase'}

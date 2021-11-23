@@ -9,7 +9,7 @@ import AspectCardBruce from './AspectCards/AspectCardBruce'
 function Homepage() {
   return (
     <>
-      <GridItem colStart={1} colSpan={4}>
+      <GridItem colStart={1} colSpan={5}>
         <SimpleGrid columns={{ xl: 1, lg: 2, sm: 1 }}>
           <AspectCard />
           <AspectCardJalaine />
