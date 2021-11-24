@@ -16,6 +16,7 @@ function App() {
         <Route exact path='/'>
           <Dashboard />
         </Route>
+
         <Layout>
           <Route path='/homepage'>
             <Homepage />

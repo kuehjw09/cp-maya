@@ -9,23 +9,21 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react'
 
+import background from '../images/74633.jpg'
+
 export default function Dashboard() {
   const history = useHistory()
 
-  const handleRoute = () => {
+  const handleRoute = (props) => {
     history.push('/homepage')
   }
-
-  // const handleRoute2 = () => {
-  //   history.push('/authors')
-  // }
 
   return (
     <>
       <Flex
         w={'full'}
         h={'100vh'}
-        backgroundImage='url(https://wallpaperbat.com/img/74633-mayan-wallpaper-top-free-mayan-background.jpg)'
+        backgroundImage={background}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}
       >
@@ -73,10 +71,10 @@ export default function Dashboard() {
                 color={'white'}
                 _hover={{ bg: 'whiteAlpha.500' }}
                 onClick={() => {
-                  handleRoute2()
+                  handleRoute()
                 }}
               >
-                Meet the authors
+                Project Details
               </Button> */}
             </Stack>
           </Stack>

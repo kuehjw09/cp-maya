@@ -34,10 +34,10 @@ const AspectBruce = () => {
             Teaching Tool
           </Text>
           <Heading as={'h1'} size={'xl'}>
-            Art and Architecture
+            Maya Architecture
           </Heading>
           <Text fontWeight={'semibold'} fontSize={'xl'}>
-            Classic Period Art and Architecture
+            Classic Period Maya Architecture
           </Text>
           <Stack direction={'column'}></Stack>
 

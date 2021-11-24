@@ -65,48 +65,88 @@ const AspectJesse = () => {
             />
           </Box>
         </Center>
-        <Box
-          p={3}
-          m={1}
-          fontWeight={'light'}
-          fontSize={'lg'}
-          boxShadow={'xl'}
-          rounded={'md'}
-        >
-          {' '}
-          Divine and sacred energy permeated the religious life of the Maya
-          people through the sacred energies that they believed flowed through
-          every process on earth. Everything on the earth, living and inanimate,
-          was an aspect of this sacred design, and the Maya situated themselves
-          at the center of it. In the Popol Vuh, when the gods created man, it
-          was their crowning and ultimate achievement. They went through a few
-          attempts at this before successfully making mankind in the proper
-          form. Elements of the Maya religious world included agriculture,
-          warfare, heaven, ancestor worship, the underworld and kingship. From
-          the politically and ritually significant ball game that they played,
-          to the recordings of the motions of Venus and their devotion to
-          recording the passage of time.
-        </Box>
-        <Box
-          p={3}
-          m={1}
-          fontWeight={'light'}
-          fontSize={'lg'}
-          boxShadow={'xl'}
-          rounded={'md'}
-        >
-          This was a society that worshipped several different gods, with each
-          embodying a powerful and often fearsome aspect of nature. It is
-          evident that the Maya were devoted to the keeping of time and to
-          recording the dates of the reigns of their rulers – the famous Long
-          Count Calendar also helps to articulate just how important the passage
-          of time was to the Maya. Themes such as the cyclical nature of the
-          cosmos, the reciprocal relationship between man and the gods, and the
-          adherence to ritual are recurrent in the study of the Maya. Through
-          the detailed study of what we know about these recurrent themes helps
-          us to gain a better understanding of their mysterious culture and
-          society.
-        </Box>
+        <Stack spacing={6}>
+          <Box
+            p={3}
+            m={1}
+            fontWeight={'light'}
+            fontSize={'lg'}
+            boxShadow={'xl'}
+            rounded={'md'}
+          >
+            <Heading as={'h3'} size={'lg'} pb={3}>
+              Introduction{' '}
+            </Heading>
+            <Heading as={'h4'} size={'md'} pb={1}>
+              The Popol Vuh
+            </Heading>
+            The <i>Popol Vuh</i> is the foundational sacred text of the Quiche
+            Maya. The text is our closest link to the oral histories and
+            mythology of the Classic Period Maya.
+          </Box>
+          <Box
+            p={3}
+            m={1}
+            fontWeight={'light'}
+            fontSize={'lg'}
+            boxShadow={'xl'}
+            rounded={'md'}
+          >
+            <Heading as={'h3'} size={'lg'} pb={3}>
+              Maya Cosmology{' '}
+            </Heading>
+            The Maya believed in the idea that life and death were cyclical
+            processes, and likened them to their understanding of the seasons,
+            calendars, astronomical, and agricultural cycles.
+          </Box>
+          <Box
+            p={3}
+            m={1}
+            fontWeight={'light'}
+            fontSize={'lg'}
+            boxShadow={'xl'}
+            rounded={'md'}
+          >
+            <Heading as={'h3'} size={'lg'} pb={3}>
+              Maya Nature Gods
+            </Heading>
+            The Maya pantheon is polytheistic and consists of several nature
+            deities, of which a dozen are well identified.
+          </Box>
+          <Box
+            p={3}
+            m={1}
+            fontWeight={'light'}
+            fontSize={'lg'}
+            boxShadow={'xl'}
+            rounded={'md'}
+          >
+            <Heading as={'h3'} size={'lg'} pb={3}>
+              Sacred Kingship
+            </Heading>{' '}
+            The role of the Maya kings was to align the social world of the
+            humans with the supernatural world of the gods.
+          </Box>
+
+          <Box
+            p={3}
+            m={1}
+            fontWeight={'light'}
+            fontSize={'lg'}
+            boxShadow={'xl'}
+            rounded={'md'}
+          >
+            {''}
+            <Heading as={'h3'} size={'lg'} pb={3}>
+              Maya Rituals
+            </Heading>
+            <Heading as={'h4'} size={'md'} pb={1}>
+              Bloodletting and Sacrifice
+            </Heading>
+            The main ritual action that was believed to have sustained gods and
+            agriculture was ritual bloodletting.
+          </Box>
+        </Stack>
       </Container>
     </GridItem>
   )

@@ -63,14 +63,14 @@ export default function AspectCardBruce() {
             <Badge borderRadius='full' px='2' colorScheme='green'>
               Architecture
             </Badge>
-            <Badge
+            {/* <Badge
               borderRadius='full'
               px='2'
               colorScheme='blue'
               variant='subtle'
             >
               Art
-            </Badge>
+            </Badge> */}
           </Stack>
           <Heading
             color={useColorModeValue('gray.700', 'white')}
@@ -78,7 +78,7 @@ export default function AspectCardBruce() {
             fontFamily={'body'}
             isTruncated
           >
-            Art and Architectural Achievments
+            Classic Period Maya Architecture
           </Heading>
           <Text color={'gray.500'}>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
