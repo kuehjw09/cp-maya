@@ -10,8 +10,10 @@ import {
   Image,
 } from '@chakra-ui/react'
 
-// import map from '../images/000003.jpg'
+import map from '../images/000005.png'
 import tikal from '../images/000002.jpg'
+import pyramids from '../images/000004.jpg'
+
 function ProjectPage() {
   return (
     <GridItem colStart={1} colSpan={4}>
@@ -26,7 +28,7 @@ function ProjectPage() {
           <Heading fontWeight={'light'} pb={3}>
             HIS 103 - CGP | The Americas
           </Heading>
-          <Stack spacing={3}>
+          <Stack spacing={3} fontWeight={'medium'}>
             <Text>
               The Maya occupied a diverse region in Mesoamerica that has been
               divided by scholars into three subregions referred to as the
@@ -34,11 +36,14 @@ function ProjectPage() {
               what is today Guatemala, Belize, the Yucatan Peninsula, and the
               western portions of Honduras and El Salvador.{' '}
             </Text>
-            {/* <Image
-              src={map}
-              alt='Mesoamerican Civilizations'
-              width={'50rem'}
-            ></Image> */}
+            <Center>
+              <Image
+                rounded={'sm'}
+                src={map}
+                alt='Mesoamerican Civilizations'
+                width={'30rem'}
+              ></Image>
+            </Center>
             <Text>
               The Maya in the southern lowland region of what is today Guatemala
               famously reached its height around 250 CE and lasted until around
@@ -60,7 +65,7 @@ function ProjectPage() {
               resources and wealth.{' '}
             </Text>
             <Center>
-              <Image src={tikal} alt='tikal' width='50rem' rounded='xl'></Image>
+              <Image src={tikal} alt='tikal' width='40rem' rounded='md'></Image>
             </Center>
             <Text>
               {' '}
@@ -102,6 +107,14 @@ function ProjectPage() {
               and architecture of the Classic Period. Click through the sections
               on our homepage to learn more about the Classic Maya.
             </Text>
+            <Center>
+              <Image
+                src={pyramids}
+                rounded={'md'}
+                alt='Tops of Maya Pyramids at Tikal'
+                width={'40rem'}
+              ></Image>
+            </Center>
           </Stack>
         </Box>
       </Center>
