@@ -15,7 +15,7 @@ export default function Dashboard() {
   const history = useHistory()
 
   const handleRoute = (props) => {
-    history.push('/homepage')
+    props === 1 ? history.push('/project-page') : history.push('/homepage')
   }
 
   return (
@@ -65,17 +65,17 @@ export default function Dashboard() {
                 Visit our homepage
               </Button>
 
-              {/* <Button
+              <Button
                 bg={'blackAlpha.300'}
                 rounded={'full'}
                 color={'white'}
                 _hover={{ bg: 'whiteAlpha.500' }}
                 onClick={() => {
-                  handleRoute()
+                  handleRoute(1)
                 }}
               >
                 Project Details
-              </Button> */}
+              </Button>
             </Stack>
           </Stack>
         </VStack>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 import {
   Box,
@@ -23,6 +24,13 @@ import {
 // import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react'
 
 export default function Nav() {
+  const history = useHistory()
+
+  const handleRoute = (props) => {
+    props === 1
+      ? history.push('references-page')
+      : history.push('/project-page')
+  }
   return (
     <>
       <GridItem colSpan='5'>
@@ -92,8 +100,20 @@ export default function Nav() {
                   />
                 </MenuButton>
                 <MenuList>
-                  <MenuItem>Meet the authors</MenuItem>
-                  <MenuItem>Project details page</MenuItem>
+                  <MenuItem
+                    onClick={() => {
+                      handleRoute(1)
+                    }}
+                  >
+                    References
+                  </MenuItem>
+                  <MenuItem
+                    onClick={() => {
+                      handleRoute()
+                    }}
+                  >
+                    Project details page
+                  </MenuItem>
                 </MenuList>
               </Menu>
             </Flex>

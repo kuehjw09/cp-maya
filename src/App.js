@@ -8,6 +8,8 @@ import AspectJesse from './components/Aspects/AspectJesse'
 import AspectBruce from './components/Aspects/AspectBruce'
 import AspectJalaine from './components/Aspects/AspectJalaine'
 import AspectMariela from './components/Aspects/AspectMariela'
+import ProjectPage from './components/ProjectPage'
+import ReferencesPage from './components/ReferencesPage'
 
 function App() {
   return (
@@ -16,8 +18,13 @@ function App() {
         <Route exact path='/'>
           <Dashboard />
         </Route>
-
         <Layout>
+          <Route path='/project-page'>
+            <ProjectPage />
+          </Route>
+          <Route path='/references-page'>
+            <ReferencesPage />
+          </Route>
           <Route path='/homepage'>
             <Homepage />
           </Route>
