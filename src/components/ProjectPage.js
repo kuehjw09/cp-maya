@@ -24,12 +24,22 @@ function ProjectPage() {
           rounded={'md'}
           boxShadow={'xl'}
           maxW={'80vw'}
-          p={6}
+          py={12}
+          px={6}
         >
-          <Heading fontWeight={'light'} pb={3}>
-            HIS 103 - CGP | The Americas
+          <Heading fontWeight={'light'} pb={3} textAlign={'center'}>
+            HIS 103 - CGP | <em>The Americas</em>
           </Heading>
           <Stack spacing={3} fontWeight={'medium'}>
+            <Center>
+              <Image
+                src={pyramids}
+                rounded={'md'}
+                alt='Tops of Maya Pyramids at Tikal'
+                width={'40rem'}
+                py={9}
+              ></Image>
+            </Center>
             <Text>
               The Maya occupied a region of Mesoamerica that includes what is
               today Guatemala, Belize, the Yucatan Peninsula, and the western
@@ -49,7 +59,7 @@ function ProjectPage() {
               The Maya flourished from about 250 CE to the tenth century. This
               period has been designated by scholars as the{' '}
               <em>Classic Period</em>. It was the Classic Period Maya that
-              witnessed the maturation of their writing and calendrical systems
+              witnessed the maturation of their writing and calendrical systems,
               which reached widespread observance across the three subregions.
             </Text>
             <Text>
@@ -64,43 +74,25 @@ function ProjectPage() {
             </Center>
             <Text>
               {' '}
-              It is important to remember as we try to decipher the Maya that
-              they were not a unified empire but a collection of ritual
-              ceremonial centers and city-states that shared a similar culture,
-              language, writing system, rituals, and religious practices. At the
-              height of Maya civilization these centers numbered roughly 40
-              major and minor cities that were densely populated. Population
+              At the height of Maya civilization these centers numbered roughly
+              40 major and minor cities that were densely populated. Population
               estimates range from five thousand to fifty thousand people in
               each city.{' '}
             </Text>
             <Text>
               {' '}
-              It is difficult to define the specifics of a culture that had
-              already thrived and collapsed prior to the discovery of the
-              Americas in the 15th century. This difficulty is doubled by the
-              fact that many of what had existed of the Classic Maya codices and
-              texts were sadistically burned following the arrival of the
-              Spanish and has been lost to us forever as a result. What remains
-              of this culture are the native Guatemalans (40% of which are the
-              living decedents of the Maya) and its monumental architecture –
-              palaces, pyramids, temples, and stone plazas – which are
-              plentifully adorned with the now-famous Maya writing, glyphs, and
-              pictograms in stone relief.
+              What remains of this culture are the native Guatemalans (40% of
+              which are the living decedents of the Maya) and its monumental
+              architecture – palaces, pyramids, temples, and stone plazas –
+              which are plentifully adorned with the now-famous Maya writing,
+              glyphs, and pictograms in stone relief.
             </Text>
             <Text>
               We have focused on four aspects of Classic Period Maya
-              civilization, these are the religion, social structure,
-              agriculture, and architecture. Click through the sections on our
-              homepage to learn more about the Classic Maya.
+              civilization: religion, social structure, agriculture, and
+              architecture. Click through the sections on our homepage to learn
+              more about the Classic Period Maya.
             </Text>
-            <Center>
-              <Image
-                src={pyramids}
-                rounded={'md'}
-                alt='Tops of Maya Pyramids at Tikal'
-                width={'40rem'}
-              ></Image>
-            </Center>
           </Stack>
         </Box>
       </Center>
