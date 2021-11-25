@@ -6,6 +6,7 @@ import {
   Center,
   Stack,
   Text,
+  useColorModeValue,
   Link,
 } from '@chakra-ui/react'
 
@@ -14,7 +15,7 @@ function ReferencesPage() {
     <GridItem colStart={1} colSpan={4}>
       <Center>
         <Box
-          bg={'blackAlpha.200'}
+          bg={useColorModeValue('whiteAlpha.400', 'blackAlpha.400')}
           rounded={'md'}
           boxShadow={'xl'}
           maxW={'80vw'}
@@ -39,6 +40,10 @@ function ReferencesPage() {
             <Text>
               [3] Davies, Diane E. Maya Gods and Religious Beliefs. Maya
               Archaeologist.
+            </Text>
+            <Text>
+              [4] Pollard, Elizabeth, et al., "Worlds Together, Worlds Apart,"
+              Consise Second Edition ed. Vol: 1. pages 375-378.
             </Text>
           </Stack>
         </Box>

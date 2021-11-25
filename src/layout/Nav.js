@@ -5,8 +5,6 @@ import {
   Box,
   Flex,
   Avatar,
-  HStack,
-  Link,
   Button,
   Menu,
   MenuButton,
@@ -27,9 +25,13 @@ export default function Nav() {
   const history = useHistory()
 
   const handleRoute = (props) => {
-    props === 1
-      ? history.push('references-page')
-      : history.push('/project-page')
+    if (props === 2) {
+      history.push('/homepage')
+    } else if (props === 1) {
+      history.push('references-page')
+    } else {
+      history.push('/project-page')
+    }
   }
   return (
     <>
@@ -38,33 +40,19 @@ export default function Nav() {
           bg={useColorModeValue('whiteAlpha.400', 'blackAlpha.400')}
           p={6}
           rounded={'xl'}
-          boxShadow={'xl'}
+          boxShadow={'md'}
         >
-          <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-            <HStack spacing={8} alignItems={'center'}>
-              <HStack as={'nav'} spacing={4} display={'flex'}>
-                <Link
-                  p={3}
-                  rounded={'md'}
-                  _hover={{
-                    textDecoration: 'none',
-                    bg: useColorModeValue('gray.200', 'gray.700'),
-                  }}
-                  href={'/homepage'}
-                >
-                  Home
-                </Link>
-              </HStack>
-            </HStack>
+          <Flex h={16} alignItems={'center'} justifyContent={'right'}>
             <Center>
-              <Box
+              <Stack
+                textAlign={'right'}
                 maxW='30rem'
                 display={{ base: 'inline', md: 'inline' }}
                 direction={'row-reverse'}
+                mr={3}
               >
                 <Heading
                   fontWeight={'thin'}
-                  textAlign={'center'}
                   fontSize={{ base: 'md', sm: '2xl', md: '4xl' }}
                 >
                   The Classic Period Maya,{' '}
@@ -79,45 +67,52 @@ export default function Nav() {
                   </Text>
                   <Text></Text>
                 </Stack>
-              </Box>
+              </Stack>
             </Center>
-            <Flex alignItems={'center'}>
-              <Menu>
-                <MenuButton
-                  as={Button}
-                  rounded={'full'}
-                  variant={'link'}
-                  cursor={'pointer'}
-                  minW={0}
+            {/* <Flex alignItems={'center'}> */}
+            <Menu>
+              <MenuButton
+                as={Button}
+                rounded={'full'}
+                variant={'link'}
+                cursor={'pointer'}
+                minW={0}
+              >
+                <Avatar
+                  size={'xl'}
+                  borderColor='orange.500'
+                  borderWidth='2px'
+                  src={
+                    'https://images.squarespace-cdn.com/content/v1/58274743e6f2e13993af0ae3/1588454867627-REBSBXPZN1WKJ4098F77/Quetzalcoatl.png?format=1500w'
+                  }
+                />
+              </MenuButton>
+              <MenuList>
+                <MenuItem
+                  onClick={() => {
+                    handleRoute(2)
+                  }}
                 >
-                  <Avatar
-                    size={'xl'}
-                    borderColor='orange.500'
-                    borderWidth='2px'
-                    src={
-                      'https://images.squarespace-cdn.com/content/v1/58274743e6f2e13993af0ae3/1588454867627-REBSBXPZN1WKJ4098F77/Quetzalcoatl.png?format=1500w'
-                    }
-                  />
-                </MenuButton>
-                <MenuList>
-                  <MenuItem
-                    onClick={() => {
-                      handleRoute(1)
-                    }}
-                  >
-                    References
-                  </MenuItem>
-                  <MenuItem
-                    onClick={() => {
-                      handleRoute()
-                    }}
-                  >
-                    Project details page
-                  </MenuItem>
-                </MenuList>
-              </Menu>
-            </Flex>
+                  Home
+                </MenuItem>
+                <MenuItem
+                  onClick={() => {
+                    handleRoute()
+                  }}
+                >
+                  Project details page
+                </MenuItem>
+                <MenuItem
+                  onClick={() => {
+                    handleRoute(1)
+                  }}
+                >
+                  References
+                </MenuItem>
+              </MenuList>
+            </Menu>
           </Flex>
+          {/* </Flex> */}
         </Box>
       </GridItem>
     </>

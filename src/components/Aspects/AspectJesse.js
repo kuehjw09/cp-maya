@@ -110,8 +110,9 @@ const AspectJesse = () => {
             <Heading as={'h3'} size={'lg'} pb={3}>
               Maya Nature Gods
             </Heading>
-            The Maya pantheon is polytheistic and consists of several nature
-            deities, of which a dozen are well identified.
+            The Maya pantheon was vast and consisted of a patron god in each
+            subregion, several nature deities for rain, maize, war, and the sun,
+            and a creator god.
           </Box>
           <Box
             p={3}
@@ -124,8 +125,11 @@ const AspectJesse = () => {
             <Heading as={'h3'} size={'lg'} pb={3}>
               Sacred Kingship
             </Heading>{' '}
-            The role of the Maya kings was to align the social world of the
-            humans with the supernatural world of the gods.
+            Maya kings ruled in a divine-kingship style. The role of the Maya
+            kings was to align the social world of the humans with the
+            supernatural world of the gods. They sponsored public rituals and
+            directed Maya ritual life alongside the priestly class of Maya
+            society.
           </Box>
 
           <Box
