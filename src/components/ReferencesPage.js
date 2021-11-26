@@ -25,8 +25,8 @@ function ReferencesPage() {
             References Page
           </Heading>{' '}
           <Text fontSize={'lg'}>
-            Use this page to explore further, or to view the sources of
-            information used in our research.
+            Use this page to explore the Maya further, or to view the sources we
+            used in our research.
           </Text>
           <Stack fontFamily={'monospace'} fontSize={'sm'} py={9} spacing={3}>
             <Text>

@@ -69,9 +69,7 @@ function ProjectPage() {
               centers were politically independent from one another but linked
               by a shared Mayan language and commerce.
             </Text>
-            <Center>
-              <Image src={tikal} alt='tikal' width='40rem' rounded='md'></Image>
-            </Center>
+
             <Text>
               {' '}
               At the height of Maya civilization these centers numbered roughly
@@ -79,13 +77,15 @@ function ProjectPage() {
               estimates range from five thousand to fifty thousand people in
               each city.{' '}
             </Text>
+            <Center>
+              <Image src={tikal} alt='tikal' width='40rem' rounded='md'></Image>
+            </Center>
             <Text>
               {' '}
-              What remains of this culture are the native Guatemalans (40% of
-              which are the living decedents of the Maya) and its monumental
-              architecture – palaces, pyramids, temples, and stone plazas –
-              which are plentifully adorned with the now-famous Maya writing,
-              glyphs, and pictograms in stone relief.
+              What remains of the Maya are the native Guatemalans (40% of which
+              are living decedents of the Maya) and their palaces, pyramids,
+              temples, and stone plazas which are plentifully adorned with the
+              their writing, glyphs, and pictograms.
             </Text>
             <Text>
               We have focused on four aspects of Classic Period Maya

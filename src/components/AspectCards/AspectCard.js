@@ -77,13 +77,13 @@ export default function AspectCard() {
             fontFamily={'body'}
             isTruncated
           >
-            The Mayan Creation Myth
+            Maya Ritual Life, Mythology, and Cosmology
           </Heading>
           <Text color={'gray.500'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+            Religion and ritual was integrated into every facet of Maya society
+            during the Classic Period. To better understand the Mesoamerican
+            civilization of the Maya, the best place to begin is in the study of
+            their religious beliefs, rituals, and creation myth.
           </Text>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
