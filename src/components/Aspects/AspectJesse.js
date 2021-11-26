@@ -28,11 +28,11 @@ const AspectJesse = () => {
   return (
     <GridItem colSpan={5}>
       <Container
-        width={'rem'}
-        maxW={'4xl'}
+        maxW={'100vw'}
         bg={'blackAlpha.20'}
         rounded={'md'}
-        p={4}
+        px={1}
+        py={3}
       >
         <Stack ml={3} direction={'column'}>
           <Text
@@ -80,7 +80,7 @@ const AspectJesse = () => {
         </Center>
         <Divider />
 
-        <Accordion allowToggle size={'xl'} defaultIndex={[0]}>
+        <Accordion allowToggle defaultIndex={[0]} borderColor={'teal.400'}>
           <AccordionItem>
             <h2>
               <AccordionButton>
@@ -92,14 +92,12 @@ const AspectJesse = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Box
-                p={3}
-                m={1}
                 fontWeight={'light'}
                 fontSize={'lg'}
                 boxShadow={'md'}
                 rounded={'md'}
               >
-                <Text fontSize='md' px={9} py={3} fontFamily={'sans-serif'}>
+                <Text fontSize='sm' px={3} py={3} fontFamily={'sans-serif'}>
                   When we think about the Maya, images are conjured in our minds
                   of the ruins of cities that they left behind after the
                   collapse of their civilization. Much of what we know about the
@@ -147,10 +145,9 @@ const AspectJesse = () => {
             <AccordionPanel pb={4}>
               <Stack spacing={6}>
                 <Box
-                  p={3}
-                  m={1}
+                  p={2}
                   fontWeight={'light'}
-                  fontSize={'lg'}
+                  fontSize={'md'}
                   boxShadow={'md'}
                   rounded={'md'}
                 >
@@ -190,10 +187,9 @@ const AspectJesse = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Box
-                p={3}
-                m={1}
+                p={2}
                 fontWeight={'light'}
-                fontSize={'lg'}
+                fontSize={'md'}
                 boxShadow={'md'}
                 rounded={'md'}
               >
@@ -263,10 +259,9 @@ const AspectJesse = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Box
-                p={3}
-                m={1}
+                p={2}
                 fontWeight={'light'}
-                fontSize={'lg'}
+                fontSize={'md'}
                 boxShadow={'md'}
                 rounded={'md'}
               >
@@ -292,10 +287,9 @@ const AspectJesse = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Box
-                p={3}
-                m={1}
+                p={2}
                 fontWeight={'light'}
-                fontSize={'lg'}
+                fontSize={'md'}
                 boxShadow={'md'}
                 rounded={'md'}
               >
@@ -329,10 +323,9 @@ const AspectJesse = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Box
-                p={3}
-                m={1}
+                p={2}
                 fontWeight={'light'}
-                fontSize={'lg'}
+                fontSize={'md'}
                 boxShadow={'md'}
                 rounded={'md'}
               >
@@ -358,10 +351,9 @@ const AspectJesse = () => {
             </h2>
             <AccordionPanel pb={4}>
               <Box
-                p={3}
-                m={1}
+                p={2}
                 fontWeight={'light'}
-                fontSize={'lg'}
+                fontSize={'md'}
                 boxShadow={'md'}
                 rounded={'md'}
               >
