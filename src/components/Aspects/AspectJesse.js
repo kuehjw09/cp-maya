@@ -8,12 +8,10 @@ import {
   Heading,
   Image,
   Box,
-  Container,
   Avatar,
   Flex,
   VStack,
   useBreakpointValue,
-  useColorModeValue,
 } from '@chakra-ui/react'
 import {
   Accordion,
@@ -39,9 +37,8 @@ const AspectJesse = () => {
       >
         <Center>
           <Flex
-            w={'50rem'}
             h={'30rem'}
-            maxW={'100vs'}
+            maxW={'100vw'}
             backgroundImage={'../images/261158.jpg'}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}
@@ -115,8 +112,9 @@ const AspectJesse = () => {
             allowToggle
             defaultIndex={[0]}
             borderColor={'teal.400'}
-            width={'50rem'}
+            w={'60rem'}
             maxW={'100vw'}
+            pb={9}
           >
             <AccordionItem>
               <h2>

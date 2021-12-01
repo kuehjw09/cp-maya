@@ -42,6 +42,7 @@ function ProjectPage() {
             </Center>
 
             <Divider />
+
             <Box>
               <Text>
                 The Maya occupied a region of Mesoamerica that includes what is
