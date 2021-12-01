@@ -11,7 +11,7 @@ function Homepage() {
     <>
       <GridItem colStart={1} colSpan={5}>
         <Center>
-          <SimpleGrid columns={{ base: 1 }} spacing={6} maxW={'100vw'}>
+          <SimpleGrid columns={{ base: 1 }} spacing={9} maxW={'100vw'}>
             <AspectCard />
             <AspectCardJalaine />
             <AspectCardMariela />
