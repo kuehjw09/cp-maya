@@ -32,7 +32,7 @@ const AspectJesse = () => {
         maxW={'100vw'}
         bg={'blackAlpha'}
         rounded={'md'}
-        m={9}
+        mx={3}
         boxShadow={'md'}
       >
         <Center>
@@ -77,7 +77,6 @@ const AspectJesse = () => {
                 >
                   Classic Period Maya Religion
                 </Text>
-                <Stack direction={'column'}></Stack>
 
                 <Stack mt={6} direction={'row'} spacing={4}>
                   <Avatar
@@ -112,7 +111,7 @@ const AspectJesse = () => {
             allowToggle
             defaultIndex={[0]}
             borderColor={'teal.400'}
-            w={'60rem'}
+            w={'container.lg'}
             maxW={'100vw'}
             pb={9}
           >
