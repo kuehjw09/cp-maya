@@ -21,91 +21,25 @@ import {
   AccordionIcon,
 } from '@chakra-ui/react'
 
+import background from '../../images/261158.jpg'
 import bloodletting from '../../images/000009.jpg'
 import kukulkan from '../../images/000008.jpg'
 import cosmology from '../../images/000006.png'
+import ProjectImage from '../ProjectImage'
+import ProjectCite from '../ProjectCite'
+import AspectHeader from './AspectHeader'
 
 const AspectJesse = () => {
   return (
     <GridItem colSpan={5}>
-      <Box
-        maxW={'100vw'}
-        bg={'blackAlpha'}
-        rounded={'md'}
-        mx={3}
-        boxShadow={'md'}
-      >
-        <Center>
-          <Flex
-            h={'30rem'}
-            maxW={'100vw'}
-            backgroundImage={'../images/261158.jpg'}
-            backgroundSize={'cover'}
-            backgroundPosition={'center center'}
-            mb={9}
-          >
-            <VStack
-              w={'full'}
-              justify={'center'}
-              px={useBreakpointValue({ base: 4, md: 8 })}
-              bgGradient={'linear(to-r, blackAlpha.800, transparent)'}
-            >
-              <Stack
-                ml={9}
-                direction={'column'}
-                width={'50rem'}
-                maxW={'100vw'}
-                p={3}
-              >
-                <Text
-                  color={'primary'}
-                  textTransform={'uppercase'}
-                  fontWeight={800}
-                  fontSize={'sm'}
-                  letterSpacing={1.1}
-                  mr={36}
-                >
-                  Teaching Tool
-                </Text>
-                <Heading as={'h1'} size={'lg'} color={'whiteAlpha.900'}>
-                  Maya Ritual Life, Creation Myth, and Cosmology
-                </Heading>
-                <Text
-                  fontWeight={'semibold'}
-                  fontSize={'xl'}
-                  color={'whiteAlpha.900'}
-                >
-                  Classic Period Maya Religion
-                </Text>
-
-                <Stack mt={6} direction={'row'} spacing={4}>
-                  <Avatar
-                    src={''}
-                    size='md'
-                    alt={'Author'}
-                    name='Jesse Kuehl'
-                    bg='teal.400'
-                  />
-                  <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                    <Text fontWeight={600} color={'whiteAlpha.900'}>
-                      Jesse
-                    </Text>
-                    <Text color={'gray.400'}>Oct 10, 2021 · 6min read</Text>
-                  </Stack>
-                </Stack>
-              </Stack>
-            </VStack>
-          </Flex>
-        </Center>
-        {/* <Center p={3}>
-          <Box py={9}>
-            <Image
-              src={'../images/261158.jpg'}
-              alt='maya religion'
-              width='50rem'
-            />
-          </Box>
-        </Center> */}
+      <Box maxW={'100vw'} bg={'blackAlpha'} rounded={'md'} boxShadow={'md'}>
+        <AspectHeader
+          title='Maya Rital Life, Creation Myth, and Cosmology'
+          subt='Classic Period Maya Religion'
+          img={background}
+          name={'Jesse Kuehl'}
+          minread={'9'}
+        />
         <Center>
           <Accordion
             allowToggle
@@ -236,15 +170,25 @@ const AspectJesse = () => {
                   middle world, and having its high branches ascending into
                   heaven or the upper world. This organization can be described
                   as a threefold construction of the universe.
-                  <Center p={3}>
+                  <ProjectImage
+                    img={cosmology}
+                    alt='Maya Cosmology'
+                    cite='Davies, Diane E. Maya Gods and Religious Beliefs. Maya Archaeologist.'
+                  />
+                  {/* <Center p={3}>
                     <Box my={9}>
                       <Image
                         src={cosmology}
                         alt='maya cosmology'
                         width='30rem'
                       />
+                      <ProjectCite
+                        cite={
+                          'Davies, Diane E. Maya Gods and Religious Beliefs. Maya Archaeologist.'
+                        }
+                      />
                     </Box>
-                  </Center>{' '}
+                  </Center>{' '} */}
                   Along this tree lies the celestial realm of the sky at the
                   top, the middle comprises the realm of the earth, and the
                   underworld (known as Xibalba among the Quiche Maya) at its
@@ -402,15 +346,11 @@ const AspectJesse = () => {
                   </Heading>
                   The main ritual action that was believed to have sustained
                   gods and agriculture was ritual bloodletting.
-                  <Center p={3}>
-                    <Box my={9}>
-                      <Image
-                        src={bloodletting}
-                        alt='maya bloodletting'
-                        width='30rem'
-                      />
-                    </Box>
-                  </Center>
+                  <ProjectImage
+                    img={bloodletting}
+                    alt={'maya bloodletting ritual'}
+                    cite={'Montgomery, John. "Yaxchitlan | Lintel 24"'}
+                  />
                 </Box>
               </AccordionPanel>
             </AccordionItem>

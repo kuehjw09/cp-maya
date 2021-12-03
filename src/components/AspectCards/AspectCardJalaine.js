@@ -10,6 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 import { LinkBox, LinkOverlay } from '@chakra-ui/react'
+import background from '../../images/000016.jpg'
 
 export default function AspectCardJalaine() {
   return (
@@ -38,9 +39,7 @@ export default function AspectCardJalaine() {
           >
             <Image
               transform='scale(1.0)'
-              src={
-                'https://www.thoughtco.com/thmb/p5bYEi69NpvArdAOSYv_udIcKvQ=/1939x1454/smart/filters:no_upscale()/Bonampak-feast-56a025d93df78cafdaa04c70.jpg'
-              }
+              src={background}
               alt='maya social structure'
               objectFit={'cover'}
               transition='0.3s ease-in-out'

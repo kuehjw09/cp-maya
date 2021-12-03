@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 import { LinkBox, LinkOverlay } from '@chakra-ui/react'
-
+import background from '../../images/000017.jpg'
 export default function AspectCardMariela() {
   return (
     <LinkBox>
@@ -38,9 +38,7 @@ export default function AspectCardMariela() {
           >
             <Image
               transform='scale(1.0)'
-              src={
-                'https://ancientamerindia.files.wordpress.com/2012/12/101-maias.jpg?w=584'
-              }
+              src={background}
               alt='maya agriculture'
               objectFit={'cover'}
               transition='0.3s ease-in-out'

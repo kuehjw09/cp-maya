@@ -10,6 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 import { LinkBox, LinkOverlay } from '@chakra-ui/react'
+import background from '../../images/000018.webp'
 
 export default function AspectCardBruce() {
   return (
@@ -38,9 +39,7 @@ export default function AspectCardBruce() {
           >
             <Image
               transform='scale(1.0)'
-              src={
-                'https://blog.xcaret.com/en/wp-content/uploads/2020/02/blog-xichen-50-1080x640.jpg'
-              }
+              src={background}
               alt='maya architecture'
               objectFit={'cover'}
               transition={'0.3s ease-in-out'}
