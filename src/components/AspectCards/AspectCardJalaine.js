@@ -77,7 +77,7 @@ export default function AspectCardJalaine() {
             fontFamily={'body'}
             isTruncated
           >
-            Classical Mayan Social Structure and Gender Roles
+            Maya Social Pyramid
           </Heading>
           <Text color={'gray.500'}>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

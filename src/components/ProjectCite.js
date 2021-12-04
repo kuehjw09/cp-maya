@@ -10,8 +10,9 @@ const ProjectCite = (props) => {
         </Text>
       }
     >
-      <Text as='sup' fontSize={'xs'} color={'teal.300'}>
-        <n /> {props.num}
+      <Text as='sup' cursor={'pointer'} fontSize={'xs'} color={'blue.600'}>
+        <n />
+        {props.num}{' '}
       </Text>
     </Tooltip>
   )

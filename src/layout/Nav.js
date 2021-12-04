@@ -42,13 +42,12 @@ export default function Nav() {
           rounded={'xl'}
           boxShadow={'md'}
         >
-          <Flex h={16} justifyContent={'right'}>
+          <Flex h={16} align={'center'} justifyContent={'right'}>
             <Center>
               <Stack
                 textAlign={'right'}
                 maxW='30rem'
                 display={{ base: 'inline', md: 'inline' }}
-                direction={'row-reverse'}
                 mr={3}
               >
                 <Heading
