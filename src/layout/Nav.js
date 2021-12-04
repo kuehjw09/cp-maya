@@ -42,7 +42,7 @@ export default function Nav() {
           rounded={'xl'}
           boxShadow={'md'}
         >
-          <Flex h={16} alignItems={'center'} justifyContent={'right'}>
+          <Flex h={16} justifyContent={'right'}>
             <Center>
               <Stack
                 textAlign={'right'}
@@ -112,7 +112,6 @@ export default function Nav() {
               </MenuList>
             </Menu>
           </Flex>
-          {/* </Flex> */}
         </Box>
       </GridItem>
     </>
