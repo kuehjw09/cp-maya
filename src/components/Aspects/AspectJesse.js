@@ -35,16 +35,23 @@ import AspectHeader from './AspectHeader'
 const AspectJesse = () => {
   return (
     <GridItem colSpan={5}>
-      <Box maxW={'100vw'} bg={'blackAlpha'} rounded={'md'} boxShadow={'md'}>
-        <AspectHeader
-          title='Maya Rital Life, Creation Myth, and Cosmology'
-          subt='Classic Period Maya Religion'
-          img={background}
-          color='teal'
-          name={'Jesse Kuehl'}
-          minread={'9'}
-        />
-        <Center>
+      <AspectHeader
+        title='Maya Rital Life, Creation Myth, and Cosmology'
+        subt='Classic Period Maya Religion'
+        img={background}
+        color='teal'
+        name={'Jesse Kuehl'}
+        minread={'9'}
+      />
+
+      <Center>
+        <Box
+          maxW={'100vw'}
+          w='57rem'
+          bg={'blackAlpha'}
+          rounded={'md'}
+          boxShadow={'md'}
+        >
           <Accordion
             allowToggle
             defaultIndex={[0]}
@@ -486,8 +493,8 @@ const AspectJesse = () => {
               </AccordionPanel>
             </AccordionItem>
           </Accordion>
-        </Center>
-      </Box>
+        </Box>
+      </Center>
     </GridItem>
   )
 }
