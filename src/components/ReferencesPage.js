@@ -39,7 +39,14 @@ function ReferencesPage() {
             </Text>
             <Text>
               [3] Davies, Diane E. Maya Gods and Religious Beliefs. Maya
-              Archaeologist.
+              Archaeologist.{' '}
+              <a
+                color='teal.500'
+                href='https://www.mayaarchaeologist.co.uk/public-resources/maya-world/maya-gods-religious-beliefs/'
+                isExternal
+              >
+                Link
+              </a>
             </Text>
             <Text>
               [4] Pollard, Elizabeth, et al., "Worlds Together, Worlds Apart,"
@@ -59,7 +66,11 @@ function ReferencesPage() {
             </Text>
             <Text>
               [8] Tarlton Law Library . Last modified November 8, 2018 .{' '}
-              <a href='https://tarlton.law.utexas.edu/aztec-and-maya-law/maya-social-structure'>
+              <a
+                color='teal.500'
+                href='https://tarlton.law.utexas.edu/aztec-and-maya-law/maya-social-structure'
+                isExternal
+              >
                 {' '}
                 Link{' '}
               </a>
@@ -71,7 +82,11 @@ function ReferencesPage() {
             <Text>
               [10] Webster, David. "The Uses and Abuses of the Anicent Maya ."
               PDF . Last modified , 2009.{' '}
-              <a href='https://anth.la.psu.edu/documents/Webster_GermanyMaya.pdf'>
+              <a
+                color='teal.500'
+                href='https://anth.la.psu.edu/documents/Webster_GermanyMaya.pdf'
+                isExternal
+              >
                 Link
               </a>
             </Text>
