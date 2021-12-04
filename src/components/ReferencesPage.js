@@ -45,6 +45,36 @@ function ReferencesPage() {
               [4] Pollard, Elizabeth, et al., "Worlds Together, Worlds Apart,"
               Consise Second Edition ed. Vol: 1. pages 375-378.
             </Text>
+            <Text>
+              [5] Kelly, David H. Deciphering Mayan Script. 2nd ed. Austin
+              Texas: University of Austin Texas, 1976 .
+            </Text>
+            <Text>
+              [6] Miller, Mary. Mayance Nations and Languages. 2nd ed. Vol. 1 .
+              N.p.: W.W Norton, 1995 .
+            </Text>
+            <Text>
+              [7] Liderman, Herbert. Culture, infancy and the Human experience
+              of Mayans. Vol. 1 . N.p.: Harper Collins, 1977 .
+            </Text>
+            <Text>
+              [8] Tarlton Law Library . Last modified November 8, 2018 .{' '}
+              <a href='https://tarlton.law.utexas.edu/aztec-and-maya-law/maya-social-structure'>
+                {' '}
+                Link{' '}
+              </a>
+            </Text>
+            <Text>
+              [9] Willey, Gordan. "The Collapse of Classic Mayan Civilization."
+              University of Chicago Press 1 (April 8, 1971): 1-18.
+            </Text>
+            <Text>
+              [10] Webster, David. "The Uses and Abuses of the Anicent Maya ."
+              PDF . Last modified , 2009.{' '}
+              <a href='https://anth.la.psu.edu/documents/Webster_GermanyMaya.pdf'>
+                Link
+              </a>
+            </Text>
           </Stack>
         </Box>
       </Center>
