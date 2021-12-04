@@ -21,7 +21,7 @@ import {
   AccordionIcon,
 } from '@chakra-ui/react'
 
-import background from '../../images/261158.jpg'
+import background from '../../images/000019.jpg'
 import bloodletting from '../../images/000009.jpg'
 import kukulkan from '../../images/000008.jpg'
 import cosmology from '../../images/000006.png'
@@ -37,6 +37,7 @@ const AspectJesse = () => {
           title='Maya Rital Life, Creation Myth, and Cosmology'
           subt='Classic Period Maya Religion'
           img={background}
+          color='teal'
           name={'Jesse Kuehl'}
           minread={'9'}
         />
@@ -45,7 +46,6 @@ const AspectJesse = () => {
             allowToggle
             defaultIndex={[0]}
             borderColor={'teal.400'}
-            w={'container.lg'}
             maxW={'100vw'}
             pb={9}
           >

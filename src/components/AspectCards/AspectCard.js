@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 import { LinkBox, LinkOverlay } from '@chakra-ui/react'
-
+import background from '../../images/000019.jpg'
 export default function AspectCard() {
   return (
     <LinkBox>
@@ -38,9 +38,7 @@ export default function AspectCard() {
           >
             <Image
               transform='scale(1.0)'
-              src={
-                'https://c4.wallpaperflare.com/wallpaper/709/147/694/stars-architecture-maya-civilization-pyramid-wallpaper-preview.jpg'
-              }
+              src={background}
               alt='maya religion'
               objectFit={'cover'}
               transition='0.3s ease-in-out'
