@@ -13,7 +13,7 @@ import {
 import React from 'react'
 import AspectHeader from './AspectHeader'
 import ProjectImage from '../ProjectImage'
-import background from '../../images/000018.webp'
+import background from '../../images/000018.jpg'
 
 const AspectBruce = () => {
   return (

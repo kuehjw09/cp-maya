@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 import { LinkBox, LinkOverlay } from '@chakra-ui/react'
-import background from '../../images/000018.webp'
+import background from '../../images/000018.jpg'
 
 export default function AspectCardBruce() {
   return (
