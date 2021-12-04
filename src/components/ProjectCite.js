@@ -1,11 +1,19 @@
 import React from 'react'
-import { Text } from '@chakra-ui/react'
+import { Text, Tooltip } from '@chakra-ui/react'
 
 const ProjectCite = (props) => {
   return (
-    <Text as='cite' fontSize={'sm'}>
-      <n /> Source: {props.cite}
-    </Text>
+    <Tooltip
+      label={
+        <Text as='cite' fontSize={'sm'}>
+          <n /> Source: {props.cite}
+        </Text>
+      }
+    >
+      <Text as='sup' fontSize={'xs'} color={'teal.300'}>
+        <n /> {props.num}
+      </Text>
+    </Tooltip>
   )
 }
 

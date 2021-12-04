@@ -180,7 +180,10 @@ const AspectJesse = () => {
                   American cultures represents the earth and all its processes
                   as a living totality that regenerates itself and bestows the
                   richness and fruitfullness of the world.
-                  <ProjectCite cite="Carrasco, David. 'Religions of Mesoamerica'." />
+                  <ProjectCite
+                    cite="Carrasco, David. 'Religions of Mesoamerica'."
+                    num={1}
+                  />
                   <ProjectImage
                     img={cosmology}
                     alt='Maya Cosmology'
