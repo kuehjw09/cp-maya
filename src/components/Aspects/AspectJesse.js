@@ -28,6 +28,7 @@ import cosmology from '../../images/000006.png'
 import cenotes from '../../images/000007.jpg'
 import dartgun from '../../images/000013.jpg'
 import twins from '../../images/000011.jpg'
+import lords from '../../images/000010.jpg'
 import ProjectImage from '../ProjectImage'
 import ProjectCite from '../ProjectCite'
 import AspectHeader from './AspectHeader'
@@ -99,142 +100,6 @@ const AspectJesse = () => {
                 </Box>
               </AccordionPanel>
             </AccordionItem>
-            <AccordionItem>
-              <h2>
-                <AccordionButton>
-                  <Box flex='1' textAlign='left' fontSize='xl'>
-                    The <i>Popol Vuh</i>
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                <Stack spacing={6}>
-                  <Box
-                    p={2}
-                    fontWeight={'light'}
-                    fontSize={'md'}
-                    boxShadow={'md'}
-                    rounded={'md'}
-                  >
-                    <Heading as={'h3'} size={'md'} py={3}>
-                      The <i>Popol Vuh</i>
-                    </Heading>
-                    The Popol Vuh is a 16th century text from the K’iche’ Maya
-                    people of highland Guatemala. This text was preserved
-                    through oral tradition in the Pre-Colombian era and recorded
-                    in writing by the K’iche’ Maya in 1550 C.E. The Popol Vuh
-                    encompasses a range of subjects that include creation,
-                    ancestry, history, and Maya cosmology. Understanding the
-                    Mayan creation myth allows us to make educated inferences
-                    about what spiritual life and culture was like in their
-                    civilization and better understand the ways in which the
-                    Mayans experienced their world.
-                    <br /> <br />
-                    The text itself has undergone at least 13 different
-                    translations and has been influenced by the Spanish
-                    Catholics that oversaw its commitment to writing, but it
-                    still retains much of its legitimacy as the foundational
-                    creation and mythological narrative of the Maya. There are a
-                    few key ideas we can derive from the Popol Vuh that help us
-                    to see the world as the Maya did, these are the Maya
-                    creation myth, the idea of Xibalba or the “underworld”, and
-                    the description of the Maya universe as being inside a
-                    cyclical process where life, death, and rebirth continually
-                    repeat. The Popol Vuh also introduces us to ideas such as
-                    sacrifice and ancestral energy, which will be important
-                    later in our understanding of Maya ritual life and kingship.
-                    <Heading as={'h3'} size={'md'} py={3}>
-                      The Maya Creation Myth
-                    </Heading>
-                    Part One of the Popol Vuh in the translation by Denis
-                    Tedlock deals with Maya creation. In the Popol Vuh, the
-                    universe is created in an agricultural style. At the
-                    beginning of time, the gods prepared and sowed the earth
-                    into formation, creating an abundant world of vegetation and
-                    new creations.
-                    <ProjectCite
-                      cite={
-                        "Tedlock, Dennis. 'Popol Vuh: The Mayan Book of the Dawn of Life.' Revised Edition ed. New York: Simon & Schuster, 1996."
-                      }
-                      num={4}
-                    />
-                    The cosmic sowing of the universe described in the creation
-                    myth of the K’iche’ Maya provides a model for all creation
-                    in the Maya world.
-                    <ProjectCite
-                      cite="Carrasco, David. 'Religions of Mesoamerica.' Second Edition ed. Long Grove, IL: Waveland Press, Inc., 2014, 113-147."
-                      num={5}
-                    />
-                    Applying this imagery in a cosmological scale, the Maya
-                    believed the cosmos to be amidst an everlasting cycle of
-                    birth, death, and renewal. The image of the maize crop being
-                    sown, sprouting, and being sown again for the next growth
-                    cycle further contributes to the significance of this
-                    cyclical categorization in the Maya world.
-                    <Center py={6}>
-                      <iframe
-                        width='560'
-                        height='315'
-                        src='https://www.youtube.com/embed/Jb5GKmEcJcw'
-                        title='YouTube video player'
-                        frameborder='0'
-                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                        allowfullscreen
-                      ></iframe>
-                    </Center>
-                    <br />
-                    <br />
-                    The Maya had likely derived this idea of a cyclical cosmos
-                    by observing the seasons and astronomical cycles as well.
-                    The gods then created human beings to both praise the world
-                    they had created and to provide for and nurture the earth.
-                    Part One further describes how the first two attempts at
-                    creating human beings failed because these beings had either
-                    misused and mistreated the powers that they had been given
-                    or were unable to speak and worship them.
-                    <Heading as={'h3'} size={'md'} py={3}>
-                      The Hero Twins of Maya Mythology{' '}
-                    </Heading>
-                    Part Two of the Popol Vuh describes cosmological battles
-                    between beings who threatened the order of the universe or
-                    who ruled under false pretenses, as well as those who would
-                    conquer these evil forces and become the mythological heroes
-                    of Maya mythology. We are introduced to the Hero Twins,
-                    Hunahpu and Xbalanque, who challenge and take down an
-                    arrogant ruler and pretender called Seven Macaw.
-                    <ProjectImage
-                      img={twins}
-                      alt={'hero twins'}
-                      cite={'the Hero Twins: Xbalanque and Hun Ahpu'}
-                    />
-                    This story has an astronomical significance as it is based
-                    on the motions of the stars in the sky. In this case, Seven
-                    Macaw is thought to be the personification or embodiment of
-                    the constellation we know as the Big Dipper, which in the
-                    southern hemisphere dips under the horizon and back again.
-                    The description of Seven Macaw helps to further illustrate
-                    this relationship. The Hero Twins eventually destroy and
-                    remove Seven Macaw from power with a dart gun and restore
-                    order in the Maya cosmos.
-                    <ProjectImage
-                      img={dartgun}
-                      alt={'Hero Twins take down Seven Macaw'}
-                      cite='Hero Twins take down Seven Macaw'
-                    />
-                    <Heading as={'h3'} size={'md'} py={3}>
-                      Stellar Rebirth
-                    </Heading>
-                    The Popol Vuh contains several passages which clearly
-                    indicate a belief in <em>stellar rebirth</em>, which is the
-                    belief in the reincarnation of the dead as stars. After the
-                    Hero Twins were killed, they were lifted up into the sky to
-                    become the Sun and the Moon.
-                  </Box>
-                </Stack>
-              </AccordionPanel>
-            </AccordionItem>
-
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -362,34 +227,151 @@ const AspectJesse = () => {
                 </Box>
               </AccordionPanel>
             </AccordionItem>
+
             <AccordionItem>
               <h2>
                 <AccordionButton>
                   <Box flex='1' textAlign='left' fontSize='xl'>
-                    Sacred Calendar
+                    The <i>Popol Vuh</i>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  p={2}
-                  fontWeight={'light'}
-                  fontSize={'md'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
-                  <Heading as={'h3'} size={'lg'} pb={3}>
-                    Sacred Calendar
-                  </Heading>{' '}
-                  The Mayans made incredibly advanced calendrical systems based
-                  on naked-eye observations of the night sky. They kept tabs on
-                  the night sky to understand the universe around them and were
-                  very interested in the phases of celestial objects like the
-                  Moon and Venus.
-                </Box>
+                <Stack spacing={6}>
+                  <Box
+                    p={2}
+                    fontWeight={'light'}
+                    fontSize={'md'}
+                    boxShadow={'md'}
+                    rounded={'md'}
+                  >
+                    <Heading as={'h3'} size={'md'} py={3}>
+                      The <i>Popol Vuh</i>
+                    </Heading>
+                    The Popol Vuh is a 16th century text from the K’iche’ Maya
+                    people of highland Guatemala. This text was preserved
+                    through oral tradition in the Pre-Colombian era and recorded
+                    in writing by the K’iche’ Maya in 1550 C.E. The Popol Vuh
+                    encompasses a range of subjects that include creation,
+                    ancestry, history, and Maya cosmology. Understanding the
+                    Mayan creation myth allows us to make educated inferences
+                    about what spiritual life and culture was like in their
+                    civilization and better understand the ways in which the
+                    Mayans experienced their world.
+                    <br /> <br />
+                    The text itself has undergone at least 13 different
+                    translations and has been influenced by the Spanish
+                    Catholics that oversaw its commitment to writing, but it
+                    still retains much of its legitimacy as the foundational
+                    creation and mythological narrative of the Maya. There are a
+                    few key ideas we can derive from the Popol Vuh that help us
+                    to see the world as the Maya did, these are the Maya
+                    creation myth, the idea of Xibalba or the “underworld”, and
+                    the description of the Maya universe as being inside a
+                    cyclical process where life, death, and rebirth continually
+                    repeat. The Popol Vuh also introduces us to ideas such as
+                    sacrifice and ancestral energy, which will be important
+                    later in our understanding of Maya ritual life and kingship.
+                    <Heading as={'h3'} size={'md'} py={3}>
+                      The Maya Creation Myth
+                    </Heading>
+                    Part One of the Popol Vuh in the translation by Denis
+                    Tedlock deals with Maya creation. In the Popol Vuh, the
+                    universe is created in an agricultural style. At the
+                    beginning of time, the gods prepared and sowed the earth
+                    into formation, creating an abundant world of vegetation and
+                    new creations.
+                    <ProjectCite
+                      cite={
+                        "Tedlock, Dennis. 'Popol Vuh: The Mayan Book of the Dawn of Life.' Revised Edition ed. New York: Simon & Schuster, 1996."
+                      }
+                      num={4}
+                    />
+                    The cosmic sowing of the universe described in the creation
+                    myth of the K’iche’ Maya provides a model for all creation
+                    in the Maya world.
+                    <ProjectCite
+                      cite="Carrasco, David. 'Religions of Mesoamerica.' Second Edition ed. Long Grove, IL: Waveland Press, Inc., 2014, 113-147."
+                      num={5}
+                    />
+                    Applying this imagery in a cosmological scale, the Maya
+                    believed the cosmos to be amidst an everlasting cycle of
+                    birth, death, and renewal. The image of the maize crop being
+                    sown, sprouting, and being sown again for the next growth
+                    cycle further contributes to the significance of this
+                    cyclical categorization in the Maya world.
+                    <Center py={6}>
+                      <iframe
+                        width='560'
+                        height='315'
+                        src='https://www.youtube.com/embed/Jb5GKmEcJcw'
+                        title='YouTube video player'
+                        frameborder='0'
+                        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                        allowfullscreen
+                      ></iframe>
+                    </Center>
+                    <br />
+                    <br />
+                    The Maya had likely derived this idea of a cyclical cosmos
+                    by observing the seasons and astronomical cycles as well.
+                    The gods then created human beings to both praise the world
+                    they had created and to provide for and nurture the earth.
+                    Part One further describes how the first two attempts at
+                    creating human beings failed because these beings had either
+                    misused and mistreated the powers that they had been given
+                    or were unable to speak and worship them.
+                    <Heading as={'h3'} size={'md'} py={3}>
+                      The Hero Twins of Maya Mythology{' '}
+                    </Heading>
+                    Part Two of the Popol Vuh describes cosmological battles
+                    between beings who threatened the order of the universe or
+                    who ruled under false pretenses, as well as those who would
+                    conquer these evil forces and become the mythological heroes
+                    of Maya mythology. We are introduced to the Hero Twins,
+                    Hunahpu and Xbalanque, who challenge and take down an
+                    arrogant ruler and pretender called Seven Macaw.
+                    <ProjectImage
+                      img={twins}
+                      alt={'hero twins'}
+                      cite={'the Hero Twins: Xbalanque and Hun Ahpu'}
+                    />
+                    This story has an astronomical significance as it is based
+                    on the motions of the stars in the sky. In this case, Seven
+                    Macaw is thought to be the personification or embodiment of
+                    the constellation we know as the Big Dipper, which in the
+                    southern hemisphere dips under the horizon and back again.
+                    The description of Seven Macaw helps to further illustrate
+                    this relationship. The Hero Twins eventually destroy and
+                    remove Seven Macaw from power with a dart gun and restore
+                    order in the Maya cosmos.
+                    <ProjectImage
+                      img={dartgun}
+                      alt={'Hero Twins take down Seven Macaw'}
+                      cite='Hero Twins take down Seven Macaw'
+                    />
+                    <Heading as={'h3'} size={'md'} py={3}>
+                      Journey into Xibalba{' '}
+                    </Heading>
+                    <ProjectImage
+                      img={lords}
+                      alt={'The Seven Lords of Death'}
+                      cite={'The Seven Lords of Death'}
+                    />
+                    <Heading as={'h3'} size={'md'} py={3}>
+                      Stellar Rebirth
+                    </Heading>
+                    The Popol Vuh contains several passages which clearly
+                    indicate a belief in <em>stellar rebirth</em>, which is the
+                    belief in the reincarnation of the dead as stars. After the
+                    Hero Twins were killed, they were lifted up into the sky to
+                    become the Sun and the Moon.
+                  </Box>
+                </Stack>
               </AccordionPanel>
             </AccordionItem>
+
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -427,6 +409,34 @@ const AspectJesse = () => {
                   <Heading as={'h3'} size={'md'} pb={3}>
                     The Lords of Xibalba
                   </Heading>
+                </Box>
+              </AccordionPanel>
+            </AccordionItem>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex='1' textAlign='left' fontSize='xl'>
+                    Sacred Calendar
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <Box
+                  p={2}
+                  fontWeight={'light'}
+                  fontSize={'md'}
+                  boxShadow={'md'}
+                  rounded={'md'}
+                >
+                  <Heading as={'h3'} size={'lg'} pb={3}>
+                    Sacred Calendar
+                  </Heading>{' '}
+                  The Mayans made incredibly advanced calendrical systems based
+                  on naked-eye observations of the night sky. They kept tabs on
+                  the night sky to understand the universe around them and were
+                  very interested in the phases of celestial objects like the
+                  Moon and Venus.
                 </Box>
               </AccordionPanel>
             </AccordionItem>

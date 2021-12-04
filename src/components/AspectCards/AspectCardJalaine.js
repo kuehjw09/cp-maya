@@ -79,11 +79,16 @@ export default function AspectCardJalaine() {
           >
             Maya Social Pyramid
           </Heading>
-          <Text color={'gray.500'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+          <Text color={'gray.500'} noOfLines={5}>
+            The social structure of a society will determine it’s destiny. While
+            often times the social structure of a society, parictualry how a
+            society treats it’s working class and poor, is often times dismissed
+            as something which isn’t a priority or important. However, it truly
+            is. Social structure will determine the strength and stability of
+            the economy, business production and warfare. One can see this
+            through Mayan empire. After reading this, hopefully, the reader will
+            understand how the Mayans social structure shaped it’s overall
+            economy and society.
           </Text>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
