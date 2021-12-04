@@ -46,6 +46,7 @@ const AspectJesse = () => {
             allowToggle
             defaultIndex={[0]}
             borderColor={'teal.400'}
+            w={'full'}
             maxW={'100vw'}
             pb={9}
           >
