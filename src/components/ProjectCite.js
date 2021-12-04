@@ -4,7 +4,7 @@ import { Text } from '@chakra-ui/react'
 const ProjectCite = (props) => {
   return (
     <Text as='cite' fontSize={'sm'}>
-      Image Source: {props.cite}
+      <n /> Source: {props.cite}
     </Text>
   )
 }

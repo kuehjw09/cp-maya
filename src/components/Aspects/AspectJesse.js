@@ -137,6 +137,12 @@ const AspectJesse = () => {
                         allowfullscreen
                       ></iframe>
                     </Center>
+                    In the Popol Vuh, the cosmos is created in an agricultural
+                    style. At the beginning of time, the gods prepared and sowed
+                    the earth into formation, creating an abundant world of
+                    vegetation and new creations. The cosmic sowing of the
+                    universe described in the creation myth of the Quiche Maya
+                    provides a model for all creation in the Maya world.
                   </Box>
                 </Stack>
               </AccordionPanel>
@@ -165,36 +171,27 @@ const AspectJesse = () => {
                   The way in which people categorize, organize, and understand
                   the world around them is called <em>cosmology</em>.
                   <br /> <br />
+                  <Heading as={'h3'} size={'md'} pb={3}>
+                    The Cosmic Tree{' '}
+                  </Heading>
                   One of the recurrent symbols in Maya art and story is the
-                  symbol of the Cosmic Tree. The Mayan cosmic tree is described
-                  as being rooted in the underworld, having its trunk in the
-                  middle world, and having its high branches ascending into
-                  heaven or the upper world. This organization can be described
-                  as a threefold construction of the universe.
+                  symbol of the Cosmic Tree. The cosmic tree symbol, which is
+                  found in China, Egypt, Mesopotamia, Africa, and Native
+                  American cultures represents the earth and all its processes
+                  as a living totality that regenerates itself and bestows the
+                  richness and fruitfullness of the world.
+                  <ProjectCite cite="Carrasco, David. 'Religions of Mesoamerica'." />
                   <ProjectImage
                     img={cosmology}
                     alt='Maya Cosmology'
                     cite='Davies, Diane E. Maya Gods and Religious Beliefs. Maya Archaeologist.'
                   />
-                  {/* <Center p={3}>
-                    <Box my={9}>
-                      <Image
-                        src={cosmology}
-                        alt='maya cosmology'
-                        width='30rem'
-                      />
-                      <ProjectCite
-                        cite={
-                          'Davies, Diane E. Maya Gods and Religious Beliefs. Maya Archaeologist.'
-                        }
-                      />
-                    </Box>
-                  </Center>{' '} */}
-                  Along this tree lies the celestial realm of the sky at the
-                  top, the middle comprises the realm of the earth, and the
-                  underworld (known as Xibalba among the Quiche Maya) at its
-                  roots. The cosmic tree unites the Maya universe and its many
-                  diverse aspects.
+                  The Mayan cosmic tree is described as being rooted in the
+                  underworld, having its trunk in the middle world, and having
+                  its high branches ascending into heaven or the upper world.
+                  This organization can be described as a threefold construction
+                  of the universe. The cosmic tree unites the Maya universe and
+                  its many diverse aspects.
                   <br />
                   <br />
                   The Maya believed in the idea that life and death were
@@ -219,12 +216,9 @@ const AspectJesse = () => {
                       allowfullscreen
                     ></iframe>
                   </Center>
-                  In the Popol Vuh, the cosmos is created in an agricultural
-                  style. At the beginning of time, the gods prepared and sowed
-                  the earth into formation, creating an abundant world of
-                  vegetation and new creations. The cosmic sowing of the
-                  universe described in the creation myth of the Quiche Maya
-                  provides a model for all creation in the Maya world.
+                  <Heading as={'h3'} size={'md'} pb={3}>
+                    Stellar Rebirth
+                  </Heading>
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -249,10 +243,10 @@ const AspectJesse = () => {
                     Sacred Calendar
                   </Heading>{' '}
                   The Mayans made incredibly advanced calendrical systems based
-                  on naked-eye astronomical observations of the night sky. They
-                  kept tabs on the night sky to understand the universe around
-                  them and were very interested in the phases of celestial
-                  objects like the Moon and Venus.
+                  on naked-eye observations of the night sky. They kept tabs on
+                  the night sky to understand the universe around them and were
+                  very interested in the phases of celestial objects like the
+                  Moon and Venus.
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -260,7 +254,7 @@ const AspectJesse = () => {
               <h2>
                 <AccordionButton>
                   <Box flex='1' textAlign='left' fontSize='xl'>
-                    Maya Nature Deities
+                    Maya Deities
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
@@ -273,7 +267,7 @@ const AspectJesse = () => {
                   boxShadow={'md'}
                   rounded={'md'}
                 >
-                  <Heading as={'h3'} size={'lg'} pb={3}>
+                  <Heading as={'h3'} size={'md'} pb={3}>
                     Maya Nature Deities
                   </Heading>
                   The Maya pantheon consists of about a dozen gods and
@@ -290,6 +284,9 @@ const AspectJesse = () => {
                       />
                     </Box>
                   </Center>
+                  <Heading as={'h3'} size={'md'} pb={3}>
+                    The Lords of Xibalba
+                  </Heading>
                 </Box>
               </AccordionPanel>
             </AccordionItem>
