@@ -1,23 +1,4 @@
-import {
-  GridItem,
-  Text,
-  Center,
-  Stack,
-  Heading,
-  Image,
-  Box,
-  Container,
-  Avatar,
-  Divider,
-} from '@chakra-ui/react'
-
-import {
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionPanel,
-  AccordionIcon,
-} from '@chakra-ui/react'
+import { GridItem, Heading, Container } from '@chakra-ui/react'
 
 import React from 'react'
 import AspectHeader from './AspectHeader'

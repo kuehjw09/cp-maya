@@ -1,13 +1,16 @@
+import React, { useState } from 'react'
 import { Center, Box, Image, Text } from '@chakra-ui/react'
-
-import ProjectCite from './ProjectCite'
 
 const ProjectImage = (props) => {
   return (
-    <Center p={3}>
-      <Box my={9}>
-        <Image src={props.img} alt={props.alt} width='30rem' />
-        <Text fontSize={'xs'} as='cite'>
+    <Center>
+      <Box my={9} p={3} rounded={'md'} boxShadow={'sm'}>
+        <Image
+          src={props.img}
+          alt={props.alt}
+          width={() => (props.size ? props.size : '33rem')}
+        />
+        <Text fontSize={'xs'} as='cite' fontWeight={'semibold'}>
           {props.cite}{' '}
         </Text>
       </Box>

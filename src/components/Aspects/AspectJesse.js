@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import {
   GridItem,
@@ -8,10 +8,6 @@ import {
   Heading,
   Image,
   Box,
-  Avatar,
-  Flex,
-  VStack,
-  useBreakpointValue,
 } from '@chakra-ui/react'
 import {
   Accordion,
@@ -29,6 +25,8 @@ import cenotes from '../../images/000007.jpg'
 import dartgun from '../../images/000013.jpg'
 import twins from '../../images/000011.jpg'
 import lords from '../../images/000010.jpg'
+import ballgame from '../../images/000030.png'
+import pakal from '../../images/000029.png'
 import ProjectImage from '../ProjectImage'
 import ProjectCite from '../ProjectCite'
 import AspectHeader from './AspectHeader'
@@ -56,10 +54,12 @@ const AspectJesse = () => {
           <Accordion
             allowToggle
             defaultIndex={[0]}
+            // borderColor={'purple.400'}
             borderColor={'teal.400'}
             w={'full'}
             maxW={'100vw'}
             pb={9}
+            px={3}
           >
             <AccordionItem>
               <h2>
@@ -71,13 +71,8 @@ const AspectJesse = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  fontWeight={'light'}
-                  fontSize={'lg'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
-                  <Text fontSize='md' px={3} py={3} fontFamily={'sans-serif'}>
+                <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
+                  <Text fontSize='md' py={3} fontFamily={'sans-serif'}>
                     For the Maya, everything on the earth - living and inanimate
                     - was part of a sacred design that the Maya had situated
                     themselves at the center of. Elements of the Maya religious
@@ -110,13 +105,7 @@ const AspectJesse = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  p={2}
-                  fontWeight={'light'}
-                  fontSize={'md'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
+                <Box p={2} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
                   <Heading as={'h3'} size={'lg'} pb={3}>
                     Maya Cosmology{' '}
                   </Heading>
@@ -164,8 +153,7 @@ const AspectJesse = () => {
                   directions. The earth was also said to be a turtle floating in
                   the primordial sea.
                   <ProjectCite
-                    cite='Wagner, Elizabeth (2000), Creation Myths and Maya Cosmography, as sited in Davies, Maya Gods and
- 	                  Religious Beliefs.'
+                    cite='Wagner, Elizabeth (2000), Creation Myths and Maya Cosmography, as sited in Davies, Maya Gods and Religious Beliefs.'
                     num={3}
                     color='teal'
                   />
@@ -207,7 +195,6 @@ const AspectJesse = () => {
                   The Maya believed in the idea that life and death were
                   cyclical processes, and likened them to their understanding of
                   the seasons, calendars, astronomical, and agricultural cycles.
-                  <br /> <br />
                   <Center py={6}>
                     <iframe
                       width='560'
@@ -243,10 +230,9 @@ const AspectJesse = () => {
               <AccordionPanel pb={4}>
                 <Stack spacing={6}>
                   <Box
-                    p={2}
+                    py={3}
                     fontWeight={'light'}
                     fontSize={'md'}
-                    boxShadow={'md'}
                     rounded={'md'}
                   >
                     <Heading as={'h3'} size={'md'} py={3}>
@@ -364,6 +350,14 @@ const AspectJesse = () => {
                       alt={'The Seven Lords of Death'}
                       cite={'The Seven Lords of Death'}
                     />
+                    <ProjectImage
+                      img={ballgame}
+                      alt={'Maya Ballgame in Xibalba'}
+                      cite={
+                        "Photo in 'Tedlock, Dennis. 'Popol Vuh: The Mayan Book of the Dawn of Life.' Revised Edition ed. New York: Simon & Schuster, 1996. 120-121'"
+                      }
+                      size='50rem'
+                    />
                     <Heading as={'h3'} size={'md'} py={3}>
                       Stellar Rebirth
                     </Heading>
@@ -387,13 +381,7 @@ const AspectJesse = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  p={2}
-                  fontWeight={'light'}
-                  fontSize={'md'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
+                <Box py={3} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
                   <Heading as={'h3'} size={'md'} pb={3}>
                     Maya Nature Deities
                   </Heading>
@@ -411,9 +399,6 @@ const AspectJesse = () => {
                       />
                     </Box>
                   </Center>
-                  <Heading as={'h3'} size={'md'} pb={3}>
-                    The Lords of Xibalba
-                  </Heading>
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -427,13 +412,7 @@ const AspectJesse = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  p={2}
-                  fontWeight={'light'}
-                  fontSize={'md'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
+                <Box py={3} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
                   <Heading as={'h3'} size={'lg'} pb={3}>
                     Sacred Calendar
                   </Heading>{' '}
@@ -455,13 +434,7 @@ const AspectJesse = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  p={2}
-                  fontWeight={'light'}
-                  fontSize={'md'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
+                <Box p={2} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
                   <Heading as={'h3'} size={'lg'} pb={3}>
                     Sacred Kingship
                   </Heading>{' '}
@@ -470,6 +443,16 @@ const AspectJesse = () => {
                   the supernatural world of the gods. They sponsored public
                   rituals and directed Maya ritual life alongside the priestly
                   class of Maya society.
+                  <ProjectImage
+                    img={pakal}
+                    alt={
+                      'Sarcophagus Lid, Temple of the Inscriptions, Palenque, Chiapas, Mexico, 683<sub>CE</sub>.'
+                    }
+                    cite={
+                      'Sarcophagus Lid, Temple of the Inscriptions, Palenque, Chiapas, Mexico, 683 CE.'
+                    }
+                    size={'sm'}
+                  />
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -483,13 +466,7 @@ const AspectJesse = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <Box
-                  p={2}
-                  fontWeight={'light'}
-                  fontSize={'md'}
-                  boxShadow={'md'}
-                  rounded={'md'}
-                >
+                <Box p={2} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
                   {''}
                   <Heading as={'h3'} size={'lg'} pb={3}>
                     Maya Ritual Life
