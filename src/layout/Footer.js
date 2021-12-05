@@ -1,65 +1,30 @@
+import React from 'react'
+import { useHistory } from 'react-router-dom'
+
 import {
   Box,
-  chakra,
   Container,
-  Link,
+  Button,
   Stack,
   Text,
   useColorModeValue,
-  VisuallyHidden,
   Avatar,
 } from '@chakra-ui/react'
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
-import { ReactNode } from 'react'
 
 import { ColorModeSwitcher } from './ColorModeSwitcher'
 
-const Logo = (props: any) => {
-  return (
-    <Avatar
-      size={'lg'}
-      borderColor='orange.500'
-      borderWidth='2px'
-      src={
-        'https://images.squarespace-cdn.com/content/v1/58274743e6f2e13993af0ae3/1588454867627-REBSBXPZN1WKJ4098F77/Quetzalcoatl.png?format=1500w'
-      }
-    />
-  )
-}
-
-const SocialButton = ({
-  children,
-  label,
-  href,
-}: {
-  children: ReactNode,
-  label: string,
-  href: string,
-}) => {
-  return (
-    <chakra.button
-      bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
-      rounded={'full'}
-      w={8}
-      h={8}
-      cursor={'pointer'}
-      as={'a'}
-      href={href}
-      display={'inline-flex'}
-      alignItems={'center'}
-      justifyContent={'center'}
-      transition={'background 0.3s ease'}
-      _hover={{
-        bg: useColorModeValue('blackAlpha.200', 'whiteAlpha.200'),
-      }}
-    >
-      <VisuallyHidden>{label}</VisuallyHidden>
-      {children}
-    </chakra.button>
-  )
-}
-
 export default function Footer() {
+  const history = useHistory()
+
+  const handleRoute = (props) => {
+    if (props === 2) {
+      history.push('/homepage')
+    } else if (props === 1) {
+      history.push('references-page')
+    } else {
+      history.push('/project-page')
+    }
+  }
   return (
     <Box
       as='footer'
@@ -75,7 +40,23 @@ export default function Footer() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}
       >
-        <Logo />
+        <Box
+          as={Button}
+          rounded={'full'}
+          variant={'link'}
+          cursor={'pointer'}
+          minW={0}
+          onClick={() => handleRoute(2)}
+        >
+          <Avatar
+            size={'lg'}
+            borderColor='orange.500'
+            borderWidth='2px'
+            src={
+              'https://images.squarespace-cdn.com/content/v1/58274743e6f2e13993af0ae3/1588454867627-REBSBXPZN1WKJ4098F77/Quetzalcoatl.png?format=1500w'
+            }
+          />
+        </Box>
         <Text>
           © 2021 Collaborative Project | <i>The Americas</i>. All rights
           reserved

@@ -46,7 +46,7 @@ export default function Nav() {
             <Center>
               <Stack
                 textAlign={'right'}
-                maxW='30rem'
+                maxW='50rem'
                 display={{ base: 'inline', md: 'inline' }}
                 mr={3}
               >
@@ -68,7 +68,6 @@ export default function Nav() {
                 </Stack>
               </Stack>
             </Center>
-            {/* <Flex alignItems={'center'}> */}
             <Menu>
               <MenuButton
                 as={Button}
