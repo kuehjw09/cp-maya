@@ -58,14 +58,14 @@ function ProjectPage() {
                 maxW={'100vw'}
               >
                 <Text
-                  color={'primary'}
+                  color={'blue.400'}
                   textTransform={'uppercase'}
                   fontWeight={800}
                   fontSize={'sm'}
                   letterSpacing={1.1}
                   mr={36}
                 >
-                  Project Website Introduction
+                  Project Details
                 </Text>
                 <Heading as={'h1'} size={'lg'} color={'whiteAlpha.900'}>
                   HIS 103 - CGP | <em>The Americas</em>
@@ -96,51 +96,53 @@ function ProjectPage() {
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     This website is designed to be shared as a multimedia
-                    presentation where each of our members can share what they
-                    researched about their chosen aspect.{' '}
+                    presentation where each of our members can share their
+                    research.{' '}
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    This project provides users with general history of
-                    Classical Maya civilization, major events that took place in
-                    the Classical Maya world, and specific research associated
-                    with the four aspects each of our members has chosen for the
-                    Teaching Tool.
+                    The site is designed to provide users a general history of
+                    the Classical Maya, major events that took place in the
+                    Classical Maya world, and specialized research associated
+                    with the four aspects chosen by each of our members.
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    Click the logo at the top of the page to navigate to our
-                    homepage. The homepage contains four Teaching Tools that
-                    were designed by our members. These will contain the
-                    research that each member has gathered for the project.
+                    Our project homepage contains four Teaching Tools designed
+                    by our members. These contain the research that each member
+                    has gathered for the project. Click the logo at the top or
+                    bottom of the website to navigate to the homepage.
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    We have focused on four aspects of Classic Period Maya
-                    civilization: religion, social structure, agriculture, and
+                    The four aspects of Classic Period Maya civilization we have
+                    selected are religion, social structure, agriculture, and
                     architecture.{' '}
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    Each Teaching Tool will include in-text citations that
-                    represent the work each member is referencing. Click on or
+                    Each Teaching Tool includes in-text citations representing
+                    the work that is referenced in our research. Click on or
                     hover over these citations to view the work being cited.
-                    (Ex: Substantiated claim from my research.{' '}
-                    <ProjectCite
-                      cite={
-                        'Citation, Example. "Collaborative Group Project: The Classic Period Maya." 2021. HIS 103 | World Civilizations I.'
-                      }
-                      num={'1'}
-                      color={'blue'}
-                    />
-                    )
+                    <Text fontWeight={'semibold'}>
+                      (Example: Substantiated claim from my research.
+                      <ProjectCite
+                        cite={
+                          'Citation, Example. "Collaborative Group Project: The Classic Period Maya." 2021. HIS 103 | World Civilizations I.'
+                        }
+                        num={'1'}
+                        color={'blue'}
+                      />
+                      )
+                    </Text>
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    Click the tab on this page titled 'The Classic Period Maya'
-                    to view general information about our selected civilization,
-                    then click through each Teaching Tool on our homepage to
-                    learn more about the Classic Period Maya.
+                    On this page, select the tab titled{' '}
+                    <em>The Classic Period Maya</em> to view general information
+                    about our selected civilization. Then, click through each
+                    Teaching Tool on our homepage to learn more about the
+                    Classic Period Maya.
                   </ListItem>
                 </List>
               </TabPanel>
@@ -167,12 +169,12 @@ function ProjectPage() {
                   />
                   <Text>
                     The Maya flourished from about 250 CE to the tenth century.
-                    This period has been designated by scholars as the{' '}
-                    <em>Classic Period</em>. It was the Classic Period Maya that
-                    witnessed the maturation of their writing and calendrical
-                    systems, which reached widespread observance across the
-                    three subregions.
+                    This period has been designated by scholars as the Classic
+                    Period. It was the Classic Period Maya that witnessed the
+                    maturation of their writing and calendrical systems, which
+                    reached widespread observance across the three subregions.
                   </Text>
+                  <br />
                   <Text>
                     {' '}
                     The Maya established a number of densely populated
@@ -180,6 +182,7 @@ function ProjectPage() {
                     centers. These centers were politically independent from one
                     another but linked by a shared Mayan language and commerce.
                   </Text>
+                  <br />
                   <Text>
                     {' '}
                     At the height of Maya civilization these centers numbered
@@ -187,21 +190,18 @@ function ProjectPage() {
                     populated. Population estimates range from five thousand to
                     fifty thousand people in each city.{' '}
                   </Text>
-                  <Center>
-                    <Image
-                      src={tikal}
-                      alt='tikal'
-                      width='50rem'
-                      rounded='md'
-                      py={9}
-                    ></Image>
-                  </Center>
+                  <ProjectImage
+                    img={tikal}
+                    alt={'Maya ruins at tikal'}
+                    cite={'Late-Classic Maya ruins at Tikal'}
+                  />
                   <Text>
                     {' '}
                     What remains of the Maya are the native Guatemalans (40% of
                     which are living decedents of the Maya) and their palaces,
-                    pyramids, temples, and stone plazas which are plentifully
-                    adorned with the their writing, glyphs, and pictograms.
+                    pyramids, temples, and stone plazas. Fortunately for
+                    Mesoamerican historians these are plentifully adorned with
+                    the their writing, glyphs, and pictograms.
                   </Text>
                 </Stack>
               </TabPanel>
