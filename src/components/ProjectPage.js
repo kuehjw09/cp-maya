@@ -32,7 +32,7 @@ import ProjectCite from './ProjectCite'
 
 function ProjectPage() {
   return (
-    <GridItem colStart={1} colSpan={4}>
+    <GridItem colStart={1} colSpan={5}>
       <Center>
         <Flex
           h={'40rem'}
@@ -41,7 +41,7 @@ function ProjectPage() {
           backgroundImage={pyramids}
           backgroundSize={'cover'}
           backgroundPosition={'center center'}
-          mb={9}
+          mb={3}
         >
           <VStack
             w={'full'}
@@ -83,7 +83,7 @@ function ProjectPage() {
         </Flex>
       </Center>
       <Center>
-        <Box w={'50rem'} maxW={'100vw'} p={9} boxShadow={'lg'}>
+        <Box maxW={'100vw'} p={1} boxShadow={'lg'}>
           <Tabs isFitted variant='enclosed'>
             <TabList mb='2em'>
               <Tab>Project Rationale</Tab>
@@ -124,8 +124,8 @@ function ProjectPage() {
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     Each Teaching Tool will include in-text citations that
                     represent the work each member is referencing. Click on or
-                    hover over these citations to view their information (Ex:
-                    Substantiated claim from my research.{' '}
+                    hover over these citations to view the work being cited.
+                    (Ex: Substantiated claim from my research.{' '}
                     <ProjectCite
                       cite={
                         'Citation, Example. "Collaborative Group Project: The Classic Period Maya." 2021. HIS 103 | World Civilizations I.'
