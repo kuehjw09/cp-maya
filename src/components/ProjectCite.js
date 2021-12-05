@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Text, Tooltip } from '@chakra-ui/react'
 
 const ProjectCite = (props) => {
@@ -10,7 +10,13 @@ const ProjectCite = (props) => {
         </Text>
       }
     >
-      <Text as='sup' cursor={'pointer'} fontSize={'xs'} color={'orange.400'}>
+      <Text
+        as='sup'
+        cursor={'pointer'}
+        fontSize={'xs'}
+        color={props.color + '.400'}
+        fontWeight={'semibold'}
+      >
         <n />
         {props.num}{' '}
       </Text>

@@ -61,19 +61,7 @@ export default function Footer() {
           © 2021 Collaborative Project | <i>The Americas</i>. All rights
           reserved
         </Text>
-        {/* <Stack direction={'row'} spacing={6}> */}
         <ColorModeSwitcher />
-
-        {/* <SocialButton label={'Twitter'} href={'#'}>
-            <FaTwitter />
-          </SocialButton>
-          <SocialButton label={'YouTube'} href={'#'}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={'Instagram'} href={'#'}>
-            <FaInstagram />
-          </SocialButton> */}
-        {/* </Stack> */}
       </Container>
     </Box>
   )

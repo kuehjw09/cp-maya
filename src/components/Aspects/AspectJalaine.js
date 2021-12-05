@@ -73,6 +73,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite="Webster, David. 'The Uses and Abuses of the Anicent Maya .' PDF . Last modified , 2009."
           num={1}
+          color='pink'
         />{' '}
         Mayan Kings lived in stone palaces within the city which were either a
         part of or near temples. The palace of Palenque is a great example of
@@ -85,6 +86,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Liderman, Herbert. Culture, infancy and the Human experience of Mayans. Vol. 1 . N.p.: Harper Collins, 1977 .'
           num={2}
+          color='pink'
         />
         <ProjectImage
           img={palanque}
@@ -102,6 +104,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Tarlton Law Library . Last modified November 8, 2018 . '
           num={3}
+          color='pink'
         />
         <br /> <br />
         They still did live in large luxurious palace-like homes although they
@@ -109,6 +112,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Liderman, Herbert. Culture, infancy and the Human experience of Mayans. Vol. 1 . N.p.: Harper Collins, 1977 .'
           num={4}
+          color='pink'
         />{' '}
         The elites also did have a multitude of servants and slaves to not only
         wait on their domestic needs but to also perform laborious activities
@@ -119,6 +123,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Tarlton Law Library . Last modified November 8, 2018 . '
           num={5}
+          color='pink'
         />
         <ProjectImage
           img={mansion}
@@ -133,6 +138,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Tarlton Law Library . Last modified November 8, 2018 . '
           num={6}
+          color='pink'
         />
         <ProjectImage
           img={court}
@@ -146,6 +152,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Tarlton Law Library . Last modified November 8, 2018 . '
           num={7}
+          color='pink'
         />
         However, this wasn’t the only form of entertainment. Mayan elites would
         attend dances in which the elites danced while others played music, they
@@ -164,6 +171,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Miller, Mary. Mayance Nations and Languages. 2nd ed. Vol. 1 . N.p.: W.W Norton, 1995 .'
           num={8}
+          color='pink'
         />
         It could be argued if Mayan society didn’t value this form of
         intellectualism these advancements wouldn’t have been made.
@@ -176,12 +184,14 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Tarlton Law Library . Last modified November 8, 2018 . '
           num={9}
+          color='pink'
         />{' '}
         They would be considered the equivalent of people who are high upper
         middle class or low upper class by our standards today.
         <ProjectCite
           cite="Willey, Gordan. 'The Collapse of Classic Mayan Civilization.' University of Chicago Press 1 (April 8, 1971): 1-18."
           num={10}
+          color='pink'
         />{' '}
         Some jobs which merchants held were merchants, farmers, artists,
         arichtects and slave traders. It was very easy for someone who was born
@@ -189,6 +199,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Tarlton Law Library . Last modified November 8, 2018 . '
           num={11}
+          color='pink'
         />{' '}
         This would often times be by expanding their business if they owned a
         farm of were a slave trader or by getting invovled in math and astrology
@@ -196,6 +207,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Webster, David. "The Uses and Abuses of the Ancient Maya ." PDF . Last modified , 2009.'
           num={12}
+          color='pink'
         />{' '}
         <br /> <br />
         People within the merchant class would often times have one or two
@@ -229,6 +241,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite={'Tarlton Law Library . Last modified November 8, 2018 . '}
           num={13}
+          color='pink'
         />
         Surfs basically lived like modern day working class people. They would
         work very, very hard all day long, oftentimes doing jobs which society
@@ -241,6 +254,7 @@ const AspectJalaine = () => {
             "Willey, Gordan. 'The Collapse of Classic Mayan Civilization.' University of Chicago Press 1 (April 8, 1971): 1-18."
           }
           num={14}
+          color='pink'
         />
         <ProjectImage
           img={home}
@@ -256,6 +270,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Webster, David. "The Uses and Abuses of the Ancient Maya ." PDF . Last modified , 2009.'
           num={15}
+          color='pink'
         />{' '}
         Slaves were often times children who grew up as orphans and were never
         adapted by a different family, people who committed some type of
@@ -267,11 +282,13 @@ const AspectJalaine = () => {
             'Webster, David. "The Uses and Abuses of the Anicent Maya ." PDF . Last modified , 2009.'
           }
           num={16}
+          color='pink'
         />
         Sometimes people would even sell themselves into slavery.
         <ProjectCite
           cite={'Tarlton Law Library . Last modified November 8, 2018 . '}
           num={17}
+          color='pink'
         />
         This was because Mayan surfs were usually pretty poor and had a hard
         time putting food on the table. Therefore, if one member of the family
@@ -282,6 +299,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite={'Tarlton Law Library . Last modified November 8, 2018 . '}
           num={18}
+          color='pink'
         />
         <br /> <br />
         Although slaves in the Mayan empire had no rights or privileges, slave
@@ -290,6 +308,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Kelly, David H. Deciphering Mayan Script. 2nd ed. Austin Texas: University of Austin Texas, 1976 . '
           num={19}
+          color='pink'
         />{' '}
         Basically there’s no evidence showing that Mayan slaves were whipped,
         beaten or brutally killed.
@@ -298,6 +317,7 @@ const AspectJalaine = () => {
             'Webster, David. "The Uses and Abuses of the Anicent Maya ." PDF . Last modified , 2009.'
           }
           num={20}
+          color='pink'
         />
         Although the exact treatment of each slave probably vaired depending
         upon the person who owned them there’s no strong evidence showing that
@@ -316,6 +336,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite={'Don, Linn. Mr. Donn . https://mayas.mrdonn.org/women.html. '}
           num={21}
+          color='pink'
         />{' '}
         They’re duty was to be good wives, manage the home and bring up the
         children. Wealthy Mayan women could not inherit money nor were they able
@@ -325,6 +346,7 @@ const AspectJalaine = () => {
             'Webster, David. "The Uses and Abuses of the Anicent Maya ." PDF . Last modified , 2009.'
           }
           num={22}
+          color='pink'
         />
         <ProjectImage
           img={women}
@@ -342,12 +364,14 @@ const AspectJalaine = () => {
             'Webster, David. "The Uses and Abuses of the Anicent Maya ." PDF . Last modified , 2009.'
           }
           num={23}
+          color='pink'
         />{' '}
         Furthermore, if it was a caste systems surfs would not have been able to
         become slaves.{' '}
         <ProjectCite
           cite={'Tarlton Law Library . Last modified November 8, 2018 . '}
           num={24}
+          color='pink'
         />{' '}
         The reason why people mistake the Mayan system as a caste system is
         because there was a huge gap between the king, elites and merchant class
@@ -359,6 +383,7 @@ const AspectJalaine = () => {
             "Willey, Gordan. 'The Collapse of Classic Mayan Civilization.' University of Chicago Press 1 (April 8, 1971): 1-18."
           }
           num={25}
+          color='pink'
         />{' '}
         The Mayans did have something which was closer to a plutocratic system
         which means that the wealthy people were extremely wealthy and the poor
@@ -367,6 +392,7 @@ const AspectJalaine = () => {
         <ProjectCite
           cite='Kelly, David H. Deciphering Mayan Script. 2nd ed. Austin Texas: University of Austin Texas, 1976 . '
           num={26}
+          color='pink'
         />{' '}
       </Container>
     </GridItem>

@@ -135,6 +135,7 @@ const AspectJesse = () => {
                   <ProjectCite
                     cite="Carrasco, David. 'Religions of Mesoamerica.' Second Edition ed. Long Grove, IL: Waveland Press, Inc., 2014, 113-147."
                     num={1}
+                    color='teal'
                   />
                   <br />
                   <br />
@@ -147,6 +148,7 @@ const AspectJesse = () => {
                   <ProjectCite
                     cite="Davies, Diane E. 'Maya Gods and Religious Beliefs.' Maya Archaeologist. Website."
                     num={2}
+                    color='teal'
                   />
                   <ProjectImage
                     img={cosmology}
@@ -165,6 +167,7 @@ const AspectJesse = () => {
                     cite='Wagner, Elizabeth (2000), Creation Myths and Maya Cosmography, as sited in Davies, Maya Gods and
  	                  Religious Beliefs.'
                     num={3}
+                    color='teal'
                   />
                   <Heading as={'h3'} size={'md'} pt={6}>
                     The Maya Underworld: Xibalba{' '}
@@ -287,6 +290,7 @@ const AspectJesse = () => {
                         "Tedlock, Dennis. 'Popol Vuh: The Mayan Book of the Dawn of Life.' Revised Edition ed. New York: Simon & Schuster, 1996."
                       }
                       num={4}
+                      color='teal'
                     />
                     The cosmic sowing of the universe described in the creation
                     myth of the K’iche’ Maya provides a model for all creation
@@ -294,6 +298,7 @@ const AspectJesse = () => {
                     <ProjectCite
                       cite="Carrasco, David. 'Religions of Mesoamerica.' Second Edition ed. Long Grove, IL: Waveland Press, Inc., 2014, 113-147."
                       num={5}
+                      color='teal'
                     />
                     Applying this imagery in a cosmological scale, the Maya
                     believed the cosmos to be amidst an everlasting cycle of

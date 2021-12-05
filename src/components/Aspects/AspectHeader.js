@@ -68,7 +68,7 @@ const AspectHeader = (props) => {
                   <Text fontWeight={600} color={'whiteAlpha.900'}>
                     {props.name}
                   </Text>
-                  <Text color={'gray.400'}>
+                  <Text color={'gray.300'}>
                     Oct 10, 2021 · {props.minread}min read
                   </Text>
                 </Stack>
