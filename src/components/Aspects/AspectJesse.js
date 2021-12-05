@@ -181,9 +181,9 @@ const AspectJesse = () => {
                   inhabitants of the Yucatan Peninsula.
                   <br />
                   <br />
-                  <Heading as={'h3'} size={'md'} pt={6}>
-                    Cycles of Time in the Night Sky{' '}
-                  </Heading>
+                  <Heading as={'h3'} size={'lg'} pb={3}>
+                    Sacred Calendar: Cycles of Time in the Night Sky
+                  </Heading>{' '}
                   The Maya upperworld corresponded to the sky and, like other
                   cultures around the world, they observed what happened in the
                   sky and created mythologies based on these motions. They
@@ -195,6 +195,13 @@ const AspectJesse = () => {
                   The Maya believed in the idea that life and death were
                   cyclical processes, and likened them to their understanding of
                   the seasons, calendars, astronomical, and agricultural cycles.
+                  <br />
+                  <br />
+                  The Mayans made incredibly advanced calendrical systems based
+                  on naked-eye observations of the night sky. They kept tabs on
+                  the night sky to understand the universe around them and were
+                  very interested in the phases of celestial objects like the
+                  Moon and Venus.
                   <Center py={6}>
                     <iframe
                       width='560'
@@ -208,7 +215,7 @@ const AspectJesse = () => {
                   </Center>
                   The Maya had a dynamic view of time, and they observed great
                   cycles of time in the motions of the sky and stars. Their
-                  cosmology influenced their mythology and their ritual life as
+                  cosmology influenced their mythology and their ritual life, as
                   it was believed that the things that happened in the sky were
                   a macrocosm of the processes on earth and those happening in
                   the underworld. Exploring Maya cosmology further requires us
@@ -317,26 +324,23 @@ const AspectJesse = () => {
                       The Hero Twins of Maya Mythology{' '}
                     </Heading>
                     Part Two of the Popol Vuh describes cosmological battles
-                    between beings who threatened the order of the universe or
-                    who ruled under false pretenses, as well as those who would
-                    conquer these evil forces and become the mythological heroes
-                    of Maya mythology. We are introduced to the Hero Twins,
-                    Hunahpu and Xbalanque, who challenge and take down an
-                    arrogant ruler and pretender called Seven Macaw.
+                    between those who threatened the order of the world and
+                    those who would conquer them to become the mythological
+                    heroes of Maya mythology. We are introduced to the Hero
+                    Twins, Hunahpu and Xbalanque, who challenge and shoot down
+                    with a blow gun an arrogant ruler who claimed to be the new
+                    god of the sun called Seven Macaw.
                     <ProjectImage
                       img={twins}
                       alt={'hero twins'}
                       cite={'the Hero Twins: Xbalanque and Hun Ahpu'}
                     />
                     This story has an astronomical significance as it is based
-                    on the motions of the stars in the sky. In this case, Seven
-                    Macaw is thought to be the personification or embodiment of
-                    the constellation we know as the Big Dipper, which in the
-                    southern hemisphere dips under the horizon and back again.
-                    The description of Seven Macaw helps to further illustrate
-                    this relationship. The Hero Twins eventually destroy and
-                    remove Seven Macaw from power with a dart gun and restore
-                    order in the Maya cosmos.
+                    on the motions of constellations. In this case, Seven Macaw
+                    is thought to be the personification or embodiment of the
+                    constellation we know as the Big Dipper, which in the dips
+                    underneath the horizon and back again regularly throughout
+                    the year in the southern hemisphere.
                     <ProjectImage
                       img={dartgun}
                       alt={'Hero Twins take down Seven Macaw'}
@@ -345,10 +349,32 @@ const AspectJesse = () => {
                     <Heading as={'h3'} size={'md'} py={3}>
                       Journey into Xibalba{' '}
                     </Heading>
+                    Xibalba was the scene of many adventures by the heroes of
+                    Maya mythology, including the Hero Twins.
+                    <ProjectCite
+                      cite="Cartwright, Mark. 'Xibalba.' WorldHistoryEncyclopedia. Webiste. Accessed 11/23/21"
+                      color={'teal'}
+                      num={6}
+                    />
+                    After vanquishing their own enemy they seek to vanquish that
+                    of their father: The Maya Death Gods.
                     <ProjectImage
                       img={lords}
                       alt={'The Seven Lords of Death'}
                       cite={'The Seven Lords of Death'}
+                    />
+                    <Heading as={'h3'} size={'sm'} py={3}>
+                      Maya Death Gods{' '}
+                    </Heading>
+                    The Maya Death Gods, collectively known as the Lords of
+                    Xibalba, may have numbered as much as nine and have names
+                    suggestive of their malignant nature; names like{' '}
+                    <em>Blood Gatherer</em>, <em>Pus Master</em>, and{' '}
+                    <em>Skull Sceptre</em>
+                    <ProjectCite
+                      cite="Cartwright, Mark. 'Xibalba.' WorldHistoryEncyclopedia. Webiste. Accessed 11/23/21"
+                      color={'teal'}
+                      num={7}
                     />
                     <ProjectImage
                       img={ballgame}
@@ -383,44 +409,67 @@ const AspectJesse = () => {
               <AccordionPanel pb={4}>
                 <Box py={3} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
                   <Heading as={'h3'} size={'md'} pb={3}>
-                    Maya Nature Deities
+                    Maya Deities
                   </Heading>
-                  The Maya pantheon consists of about a dozen gods and
-                  goddesses. Many of these gods represented forces or aspects of
-                  things found in nature, like rain, the sun, and thunder. Many
-                  of these gods have their counterparts elsewhere in
-                  Mesoamerica.
-                  <Center p={3}>
-                    <Box my={9}>
-                      <Image
-                        src={kukulkan}
-                        alt='pyramid of kukulkan'
-                        width='30rem'
-                      />
-                    </Box>
-                  </Center>
-                </Box>
-              </AccordionPanel>
-            </AccordionItem>
-            <AccordionItem>
-              <h2>
-                <AccordionButton>
-                  <Box flex='1' textAlign='left' fontSize='xl'>
-                    Sacred Calendar
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                <Box py={3} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
-                  <Heading as={'h3'} size={'lg'} pb={3}>
-                    Sacred Calendar
-                  </Heading>{' '}
-                  The Mayans made incredibly advanced calendrical systems based
-                  on naked-eye observations of the night sky. They kept tabs on
-                  the night sky to understand the universe around them and were
-                  very interested in the phases of celestial objects like the
-                  Moon and Venus.
+                  Many of the gods in the Maya pantheon represented forces or
+                  aspects of things found in nature, like rain, the sun, and
+                  thunder. These gods have their counterparts elsewhere in
+                  Mesoamerica. I will describe a handful of these deities here.
+                  <br />
+                  <br />
+                  <Heading as='h5' size='sm'>
+                    Itzamna
+                  </Heading>
+                  Chief among these deities is <em>Itzamna</em>, the ruler of
+                  the heavens. Identified as the son of the original creator god
+                  (Hunab Ku), he is depicted as an pleasent, toothless old man.
+                  Itzamna is a cultural hero in Maya mythology and is said to
+                  have given the Maya the foundations of civilization. Legends
+                  of the Maya tell that Itzamna was a great teacher who taught
+                  the Maya how to grow corn, gave them the calendar, and taught
+                  them medicine.
+                  <br />
+                  <br />
+                  <Heading as='h5' size='sm'>
+                    Chaak
+                  </Heading>
+                  A god of rain and storms is found throughout Mesoamerica under
+                  many different names and instances, testiment to the fact that
+                  rain was a vital and nourishing natural occurance. In the Maya
+                  pantheon, this god is called <em>Chaak</em> and is considered
+                  the protector of agriculture.
+                  <br />
+                  <br />
+                  <Heading as='h5' size='sm'>
+                    Ix Chel
+                  </Heading>
+                  The most important female deity was called <em>Ix Chel</em> or{' '}
+                  <em>La Blanca</em>. Wife to Itzamna, she gave birth to other
+                  gods including the god of corn or maise, <em>Yum Kaax</em>.
+                  Like all the Mayan gods, Ix Chel had several attributes
+                  including fertility, pregancy, and harvests.
+                  <br />
+                  <br />
+                  <Heading as='h5' size='sm'>
+                    Kinich Ahau
+                  </Heading>
+                  The Sun god of the Maya is called <em>Kinich Ahau</em>. This
+                  was a powerful Maya god was that was idolized for war and
+                  royal aspects. The importance of Kinich Ahau was such that
+                  rulers in the Classic Period used the word 'Kinich' in their
+                  titles
+                  <br />
+                  <br />
+                  <Heading as='h5' size='sm'>
+                    Kukulkan
+                  </Heading>
+                  The Plumbed Serpent goes by many names throughout Mesoamerica,
+                  including <em>Quetzocatl</em>, <em>Kukulkan</em>, and{' '}
+                  <em>Qucumatz</em>. Sometimes considered a Late-Classic
+                  addition to the Maya religious paradigm, Kukulkan was a great
+                  feathered-serpent deity whose influence can be relived every
+                  year during the spring equinox by observing the north
+                  staircase of the Pyramid of Kukulkan at Chitchen Itza.
                 </Box>
               </AccordionPanel>
             </AccordionItem>

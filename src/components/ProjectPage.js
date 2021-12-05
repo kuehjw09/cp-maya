@@ -8,25 +8,19 @@ import {
   Center,
   Box,
   useBreakpointValue,
-  Image,
   Flex,
   VStack,
 } from '@chakra-ui/react'
 
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
-import {
-  List,
-  ListItem,
-  ListIcon,
-  OrderedList,
-  UnorderedList,
-} from '@chakra-ui/react'
+import { List, ListItem, ListIcon } from '@chakra-ui/react'
 
 import { CheckCircleIcon } from '@chakra-ui/icons'
 
 import map from '../images/000003.jpg'
 import tikal from '../images/000002.jpg'
 import pyramids from '../images/000004.jpg'
+import copan from '../images/000031.png'
 import ProjectImage from './ProjectImage'
 import ProjectCite from './ProjectCite'
 
@@ -181,6 +175,11 @@ function ProjectPage() {
                     agricultural bureaucracies and kingdoms around major ritual
                     centers. These centers were politically independent from one
                     another but linked by a shared Mayan language and commerce.
+                    <ProjectCite
+                      cite="Pollard, Elizabeth, et al., 'Worlds Together, Worlds Apart,' Consise Second Edition ed. Vol: 1. pages 375-378."
+                      color={'blue'}
+                      num={1}
+                    />
                   </Text>
                   <br />
                   <Text>
@@ -188,7 +187,12 @@ function ProjectPage() {
                     At the height of Maya civilization these centers numbered
                     roughly 40 major and minor cities that were densely
                     populated. Population estimates range from five thousand to
-                    fifty thousand people in each city.{' '}
+                    fifty thousand people in each city.
+                    <ProjectCite
+                      cite="Pollard, Elizabeth, et al., 'Worlds Together, Worlds Apart,' Consise Second Edition ed. Vol: 1. pages 375-378."
+                      color={'blue'}
+                      num={2}
+                    />
                   </Text>
                   <ProjectImage
                     img={tikal}
@@ -202,6 +206,13 @@ function ProjectPage() {
                     pyramids, temples, and stone plazas. Fortunately for
                     Mesoamerican historians these are plentifully adorned with
                     the their writing, glyphs, and pictograms.
+                    <ProjectImage
+                      img={copan}
+                      alt={'stairway at copan'}
+                      cite={
+                        '"The Magnificent hieroglyphic stairway at Copan is the longest hieroglyphic text in existense." - Carrasco, David. "Religions of Mesoamerica." 118.'
+                      }
+                    />
                   </Text>
                 </Stack>
               </TabPanel>
