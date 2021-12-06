@@ -68,7 +68,6 @@ const AspectJesse = () => {
           <Accordion
             allowToggle
             defaultIndex={[0]}
-            // borderColor={'purple.400'}
             borderColor={'teal.400'}
             w={'full'}
             maxW={'100vw'}
@@ -134,7 +133,7 @@ const AspectJesse = () => {
                   found in China, Egypt, Mesopotamia, Africa, and Native
                   American cultures represents the earth and all its processes
                   as a living totality that regenerates itself and bestows the
-                  richness and fruitfullness of the world.
+                  richness of the world.
                   <ProjectCite
                     cite="Carrasco, David. 'Religions of Mesoamerica.' Second Edition ed. Long Grove, IL: Waveland Press, Inc., 2014, 113-147."
                     num={1}
@@ -158,7 +157,10 @@ const AspectJesse = () => {
                     alt='Maya Cosmology'
                     cite='Davies, Diane E. Maya Gods and Religious Beliefs. Maya Archaeologist.'
                   />
-                  The middle world, or the world of the living, was divided into
+                  <Heading as={'h3'} size={'sm'} pt={6} color={'teal'}>
+                    The Earth{' '}
+                  </Heading>
+                  The middle world, or the world of the earth, was divided into
                   four quadrants and enclosed at four corners corresponding to
                   the cardinal directions. West and East are determined by the
                   points where the sun rises and sets during the summer and
@@ -171,7 +173,7 @@ const AspectJesse = () => {
                     num={3}
                     color='teal'
                   />
-                  <Heading as={'h3'} size={'md'} pt={6}>
+                  <Heading as={'h3'} size={'sm'} pt={6} color={'teal'}>
                     The Maya Underworld: Xibalba{' '}
                   </Heading>
                   The underworld in Maya cosmology was a watery world and the
@@ -195,10 +197,10 @@ const AspectJesse = () => {
                   inhabitants of the Yucatan Peninsula.
                   <br />
                   <br />
-                  <Heading as={'h3'} size={'md'} pb={3}>
-                    Sacred Calendar, Cycles of Time
-                  </Heading>{' '}
-                  The Maya upperworld corresponded to the sky and, like other
+                  <Heading as={'h3'} size={'sm'} color={'teal'}>
+                    The Sky{' '}
+                  </Heading>
+                  The Maya upperworld corresponded to the sky and, like many
                   cultures around the world, they observed what happened in the
                   sky and created mythologies based on these motions. They
                   envisioned the dome of the sky as a ‘cosmic mirror’ that
@@ -206,6 +208,9 @@ const AspectJesse = () => {
                   and culture was like a mapping of the heavens, and they
                   recreated their observations of the sky upon the earth.
                   <br /> <br />
+                  <Heading as={'h3'} size={'md'} pb={3}>
+                    Sacred Calendar, Cycles of Time
+                  </Heading>{' '}
                   The Maya believed in the idea that life and death were
                   cyclical processes, and likened them to their understanding of
                   the seasons, calendars, astronomical, and agricultural cycles.
@@ -363,24 +368,29 @@ const AspectJesse = () => {
                     Xibalba was the scene of many adventures by the heroes of
                     Maya mythology, including the Hero Twins.
                     <ProjectCite
-                      cite="Cartwright, Mark. 'Xibalba.' WorldHistoryEncyclopedia. Webiste. Accessed 11/23/21"
+                      cite="Cartwright, Mark. 'Xibalba.' WorldHistoryEncyclopedia. Website. Accessed 11/23/21"
                       color={'teal'}
                       num={6}
                     />
-                    After vanquishing their own enemy they seek to vanquish that
-                    of their father: The Maya Death Gods.
+                    After dealing with Seven Macaw, the Hero Twins seek to
+                    avenge their father and vanquish the ones who had killed
+                    him: The Maya Death Gods.
                     <ProjectImage
                       img={lords}
                       alt={'The Seven Lords of Death'}
-                      cite={'The Seven Lords of Death'}
+                      cite={
+                        'Skulls, Bones, and Jaquar features are given to this depiction of the Xibalbans.'
+                      }
                     />
                     <Heading as={'h3'} size={'sm'} py={3} color={'teal.400'}>
                       Maya Death Gods{' '}
                     </Heading>
-                    The Maya Death Gods, collectively known as the Lords of
-                    Xibalba, may have numbered as much as nine and have names
-                    suggestive of their malignant nature; names like{' '}
-                    <em>Blood Gatherer</em>, <em>Pus Master</em>, and{' '}
+                    The Maya Death Gods mentioned in the Popol Vuh are
+                    collectively refered to as 'Xibalbans', or people who dwell
+                    in the underworld. The first among the Xibalbans were called{' '}
+                    <em>One Death</em> and <em>Seven Death</em>. The remaining
+                    have names suggestive of their malignant nature; names like{' '}
+                    <em>Blood Gatherer</em>, <em>Demon of Pus</em>, and{' '}
                     <em>Skull Sceptre</em>.
                     <ProjectCite
                       cite="Cartwright, Mark. 'Xibalba.' WorldHistoryEncyclopedia. Webiste. Accessed 11/23/21"
@@ -391,7 +401,8 @@ const AspectJesse = () => {
                       img={ballgame}
                       alt={'Maya Ballgame in Xibalba'}
                       cite={
-                        "Photo in 'Tedlock, Dennis. 'Popol Vuh: The Mayan Book of the Dawn of Life.' Revised Edition ed. New York: Simon & Schuster, 1996. 120-121'"
+                        "Photo in 'Tedlock, Dennis. 'Popol Vuh: The Mayan Book of the Dawn of Life.' Revised Edition ed. New York: Simon & Schuster, 1996. 120-121." +
+                        ' The Hero Twins play the Lords of Xibalba in a Maya ball game.'
                       }
                       size='50rem'
                     />
@@ -403,6 +414,8 @@ const AspectJesse = () => {
                     belief in the reincarnation of the dead as stars. After the
                     Hero Twins were killed, they were lifted up into the sky to
                     become the Sun and the Moon.
+                    <br />
+                    <br />
                   </Box>
                 </Stack>
               </AccordionPanel>
@@ -503,14 +516,24 @@ const AspectJesse = () => {
                   <Heading as={'h3'} size={'md'} pb={3}>
                     Sacred Kingship
                   </Heading>{' '}
-                  Maya kings ruled in a divine-kingship style. The role of the
-                  Maya kings was to align the social world of the humans with
-                  the supernatural world of the gods. They sponsored public
-                  rituals and directed Maya ritual life alongside the priestly
-                  class of Maya society.
+                  The Maya kings ruled in a divine-kingship style. Their role
+                  was to align the social world of the humans with the
+                  supernatural world of the gods. They sponsored public rituals
+                  and directed Maya ritual life alongside the priestly class of
+                  Maya society.
                   <ProjectCite
                     cite="Pollard, Elizabeth, et al., 'Worlds Together, Worlds Apart,' Consise Second Edition ed. Vol: 1. pages 375-378."
                     num={7}
+                    color={'teal'}
+                  />
+                  Rulers were the supreme authority in the world who directed
+                  Maya society from the planning of intensive agriculture, the
+                  building of monumental architecture, the observance of ritual
+                  and ceremonial traditions, and the initiation of warfare with
+                  other communities.
+                  <ProjectCite
+                    num={8}
+                    cite="Pollard, Elizabeth, et al., 'Worlds Together, Worlds Apart,' Consise Second Edition ed. Vol: 1. pages 375-378."
                     color={'teal'}
                   />
                   <ProjectImage
@@ -522,16 +545,6 @@ const AspectJesse = () => {
                       'Sarcophagus Lid, Temple of the Inscriptions, Palenque, Chiapas, Mexico, 683 CE.'
                     }
                     size={'sm'}
-                  />
-                  Rulers were the supreme authority in the world who directed
-                  Maya society from the planning of intensive agriculture, the
-                  building of monumental architecture, the observance of ritual
-                  and ceremonial traditions, and the initiation of warfare with
-                  other communities.
-                  <ProjectCite
-                    num={8}
-                    cite={'Carrasco, David. "Religions of Mesoamerica." 2014.'}
-                    color={'teal'}
                   />
                   <br />
                   <br />
@@ -604,27 +617,33 @@ const AspectJesse = () => {
                     }
                     color={'teal'}
                   />{' '}
-                  <br />
-                  <br />
-                  The passage of ancestors and supernatural beings into the
-                  world was believed to be open in the wound on the human body
-                  through the blood was let, and it was believed that real
-                  reciprocity was achieved between the makers of the world and
-                  human kind.
                   <ProjectImage
                     img={bloodletting}
                     alt={'maya bloodletting ritual'}
                     cite={'Lintel 24'}
                   />
-                  The Mayans are said to have given blood to receive stimulate a
-                  vision in which the gods and ancestors appeared in the world
-                  and where the people would be able to perceive their spiritual
-                  presence. Bloodletting was performed at the dedication of
-                  buildings and monuments, the birth of children, marriage
-                  ceremonies, political events, and at moments of transition in
-                  the calendar.
+                  The passage of ancestors and supernatural beings into the
+                  world was believed to be open in the wound on the human body
+                  through the blood was let, and it was believed that real
+                  reciprocity was achieved between the makers of the world and
+                  human kind.
+                  <br />
+                  <br />
+                  The Mayans are also said to have given blood to receive
+                  stimulate a vision in which the gods and ancestors appeared in
+                  the world and where the people would be able to perceive their
+                  spiritual presence.{' '}
                   <ProjectCite
                     num={13}
+                    cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}
+                    color={'teal'}
+                  />{' '}
+                  Bloodletting was performed at the dedication of buildings and
+                  monuments, the birth of children, marriage ceremonies,
+                  political events, and at moments of transition in the
+                  calendar.
+                  <ProjectCite
+                    num={14}
                     cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}
                     color={'teal'}
                   />
@@ -636,7 +655,7 @@ const AspectJesse = () => {
                   integrate all the levels of the cosmos and the social groups
                   into a sense of wholeness.
                   <ProjectCite
-                    num={14}
+                    num={15}
                     cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}
                     color={'teal'}
                   />
