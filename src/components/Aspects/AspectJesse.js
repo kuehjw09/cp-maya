@@ -302,10 +302,10 @@ const AspectJesse = () => {
                     />
                     Applying this imagery in a cosmological scale, the Maya
                     believed the cosmos to be amidst an everlasting cycle of
-                    birth, death, and renewal. The image of the maize crop being
-                    sown, sprouting, and being sown again for the next growth
-                    cycle further contributes to the significance of this
-                    cyclical categorization in the Maya world.
+                    birth, death, and renewal. Imagining the maize crop being
+                    sown, sprouting, harvested, and being sown again for the
+                    next growth cycle provides a good reference for how these
+                    ideas became so signnificant in the Maya worldview.
                     <Center py={6}>
                       <iframe
                         width='560'
@@ -317,16 +317,6 @@ const AspectJesse = () => {
                         allowfullscreen
                       ></iframe>
                     </Center>
-                    <br />
-                    <br />
-                    The Maya had likely derived this idea of a cyclical cosmos
-                    by observing the seasons and astronomical cycles as well.
-                    The gods then created human beings to both praise the world
-                    they had created and to provide for and nurture the earth.
-                    Part One further describes how the first two attempts at
-                    creating human beings failed because these beings had either
-                    misused and mistreated the powers that they had been given
-                    or were unable to speak and worship them.
                     <Heading as={'h3'} size={'md'} py={3}>
                       The Hero Twins of Maya Mythology{' '}
                     </Heading>
@@ -589,12 +579,10 @@ const AspectJesse = () => {
                   <Heading as={'h4'} size={'md'} pb={1}>
                     Bloodletting and Sacrifice
                   </Heading>
-                  The main ritual action that was believed to have sustained
-                  gods and agriculture was ritual bloodletting. Bloodletting
-                  (also called “auto-sacrifice”) is the act of self-cutting or
-                  piercing of a body part to let blood. This blood would be
-                  collected on a piece of paper and burnt as an offering to the
-                  gods.
+                  Bloodletting (also called “auto-sacrifice”) is the act of
+                  self-cutting or piercing of a body part to let blood. This
+                  blood would be collected on a piece of paper and burnt as an
+                  offering to the gods.
                   <ProjectCite
                     num={12}
                     cite={
@@ -607,7 +595,8 @@ const AspectJesse = () => {
                   The passage of ancestors and supernatural beings into the
                   world was believed to be open in the wound on the human body
                   through the blood was let, and it was believed that real
-                  reciprocity was achieved between the makers and human kind.
+                  reciprocity was achieved between the makers of the world and
+                  human kind.
                   <ProjectImage
                     img={bloodletting}
                     alt={'maya bloodletting ritual'}
@@ -625,6 +614,7 @@ const AspectJesse = () => {
                     cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}
                     color={'teal'}
                   />
+                  <br />
                   <br />
                   The Maya kings and lords offered blood in public settings at
                   specific intervals of their calendar that held ritual
