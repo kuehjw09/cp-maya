@@ -181,8 +181,8 @@ const AspectJesse = () => {
                   inhabitants of the Yucatan Peninsula.
                   <br />
                   <br />
-                  <Heading as={'h3'} size={'lg'} pb={3}>
-                    Sacred Calendar: Cycles of Time in the Night Sky
+                  <Heading as={'h3'} size={'md'} pb={3}>
+                    Sacred Calendar, Cycles of Time
                   </Heading>{' '}
                   The Maya upperworld corresponded to the sky and, like other
                   cultures around the world, they observed what happened in the
@@ -218,9 +218,16 @@ const AspectJesse = () => {
                   cosmology influenced their mythology and their ritual life, as
                   it was believed that the things that happened in the sky were
                   a macrocosm of the processes on earth and those happening in
-                  the underworld. Exploring Maya cosmology further requires us
-                  to look at the Popol Vuh for clues about the significance of
-                  their rituals and mythology.
+                  the underworld. <br />
+                  <br />
+                  For the Maya, everything happening in the past, present, and
+                  future, and everything happening in the sky and on earth was
+                  constantly fused together. They experienced their world as an
+                  ordered and deeply sacred place that existed within the
+                  progressions of a great cosmic cycle bound to begin, end, and
+                  repeat itself again. Exploring Maya cosmology further requires
+                  us to look at the Popol Vuh for clues about the significance
+                  of their rituals and mythology.
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -363,14 +370,14 @@ const AspectJesse = () => {
                       alt={'The Seven Lords of Death'}
                       cite={'The Seven Lords of Death'}
                     />
-                    <Heading as={'h3'} size={'sm'} py={3}>
+                    <Heading as={'h3'} size={'sm'} py={3} color={'teal.400'}>
                       Maya Death Gods{' '}
                     </Heading>
                     The Maya Death Gods, collectively known as the Lords of
                     Xibalba, may have numbered as much as nine and have names
                     suggestive of their malignant nature; names like{' '}
                     <em>Blood Gatherer</em>, <em>Pus Master</em>, and{' '}
-                    <em>Skull Sceptre</em>
+                    <em>Skull Sceptre</em>.
                     <ProjectCite
                       cite="Cartwright, Mark. 'Xibalba.' WorldHistoryEncyclopedia. Webiste. Accessed 11/23/21"
                       color={'teal'}
@@ -417,10 +424,10 @@ const AspectJesse = () => {
                   Mesoamerica. I will describe a handful of these deities here.
                   <br />
                   <br />
-                  <Heading as='h5' size='sm'>
+                  <Heading as='h5' size='sm' color={'teal.400'}>
                     Itzamna
                   </Heading>
-                  Chief among these deities is <em>Itzamna</em>, the ruler of
+                  Chief among the Maya deities is <em>Itzamna</em>, the ruler of
                   the heavens. Identified as the son of the original creator god
                   (Hunab Ku), he is depicted as an pleasent, toothless old man.
                   Itzamna is a cultural hero in Maya mythology and is said to
@@ -430,7 +437,7 @@ const AspectJesse = () => {
                   them medicine.
                   <br />
                   <br />
-                  <Heading as='h5' size='sm'>
+                  <Heading as='h5' size='sm' color={'teal.400'}>
                     Chaak
                   </Heading>
                   A god of rain and storms is found throughout Mesoamerica under
@@ -440,7 +447,7 @@ const AspectJesse = () => {
                   the protector of agriculture.
                   <br />
                   <br />
-                  <Heading as='h5' size='sm'>
+                  <Heading as='h5' size='sm' color={'teal.400'}>
                     Ix Chel
                   </Heading>
                   The most important female deity was called <em>Ix Chel</em> or{' '}
@@ -450,7 +457,7 @@ const AspectJesse = () => {
                   including fertility, pregancy, and harvests.
                   <br />
                   <br />
-                  <Heading as='h5' size='sm'>
+                  <Heading as='h5' size='sm' color={'teal.400'}>
                     Kinich Ahau
                   </Heading>
                   The Sun god of the Maya is called <em>Kinich Ahau</em>. This
@@ -460,16 +467,18 @@ const AspectJesse = () => {
                   titles
                   <br />
                   <br />
-                  <Heading as='h5' size='sm'>
+                  <Heading as='h5' size='sm' color={'teal.400'}>
                     Kukulkan
                   </Heading>
                   The Plumbed Serpent goes by many names throughout Mesoamerica,
-                  including <em>Quetzocatl</em>, <em>Kukulkan</em>, and{' '}
+                  including <em>Quetzalcoatl</em>, <em>Kukulkan</em>, and{' '}
                   <em>Qucumatz</em>. Sometimes considered a Late-Classic
-                  addition to the Maya religious paradigm, Kukulkan was a great
-                  feathered-serpent deity whose influence can be relived every
-                  year during the spring equinox by observing the north
-                  staircase of the Pyramid of Kukulkan at Chitchen Itza.
+                  addition to the Maya religious paradigm, Kukulkan was a
+                  mythical feathered-serpent from whom almost all Mesoamerican
+                  peoples claimed descent. The importance of this deity in the
+                  Late-Classic Period can be relived every year during the
+                  spring equinox by observing the north staircase of the Pyramid
+                  of Kukulkan at Chitchen Itza.
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -477,14 +486,17 @@ const AspectJesse = () => {
               <h2>
                 <AccordionButton>
                   <Box flex='1' textAlign='left' fontSize='xl'>
-                    Sacred Kingship
+                    Rituals
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
                 <Box p={2} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
-                  <Heading as={'h3'} size={'lg'} pb={3}>
+                  <Heading as={'h3'} size={'xl'} pb={3}>
+                    Maya Ritual Life
+                  </Heading>{' '}
+                  <Heading as={'h3'} size={'md'} pb={3}>
                     Sacred Kingship
                   </Heading>{' '}
                   Maya kings ruled in a divine-kingship style. The role of the
@@ -492,6 +504,11 @@ const AspectJesse = () => {
                   the supernatural world of the gods. They sponsored public
                   rituals and directed Maya ritual life alongside the priestly
                   class of Maya society.
+                  <ProjectCite
+                    cite="Pollard, Elizabeth, et al., 'Worlds Together, Worlds Apart,' Consise Second Edition ed. Vol: 1. pages 375-378."
+                    num={7}
+                    color={'teal'}
+                  />
                   <ProjectImage
                     img={pakal}
                     alt={
@@ -502,33 +519,122 @@ const AspectJesse = () => {
                     }
                     size={'sm'}
                   />
-                </Box>
-              </AccordionPanel>
-            </AccordionItem>
-            <AccordionItem>
-              <h2>
-                <AccordionButton>
-                  <Box flex='1' textAlign='left' fontSize='xl'>
-                    Maya Ritual Life
-                  </Box>
-                  <AccordionIcon />
-                </AccordionButton>
-              </h2>
-              <AccordionPanel pb={4}>
-                <Box p={2} fontWeight={'light'} fontSize={'md'} rounded={'md'}>
-                  {''}
-                  <Heading as={'h3'} size={'lg'} pb={3}>
-                    Maya Ritual Life
-                  </Heading>
+                  Rulers were the supreme authority in the world who directed
+                  Maya society from the planning of intensive agriculture, the
+                  building of monumental architecture, the observance of ritual
+                  and ceremonial traditions, and the initiation of warfare with
+                  other communities.
+                  <ProjectCite
+                    num={8}
+                    cite={'Carrasco, David. "Religions of Mesoamerica." 2014.'}
+                    color={'teal'}
+                  />
+                  <br />
+                  <br />
+                  The immense power of kingship was carried out through the king
+                  by deities and royal ancestors who were believed to act
+                  through him. These sources of energy were believed to be
+                  present in the body, blood, actions, and clothing of the
+                  ruler.
+                  <ProjectCite
+                    num={9}
+                    cite={'Carrasco, David. "Religions of Mesoamerica." 2014.'}
+                    color={'teal'}
+                  />
+                  Historian David Carrasco in his book Religions of Mesoamerica
+                  describes that it was the role of the sacred kings to align
+                  the social world of the humans with the supernatural world of
+                  the gods, and it was believed that the king had to demonstrate
+                  through ritual his line of descent from the first ancestor who
+                  was the source of the divine nature of the royal lineage. He
+                  further describes that the main technique for Maya kings to
+                  achieve this divine-earthly alignment was through ritual
+                  action.
+                  <ProjectCite
+                    num={10}
+                    cite={'Carrasco, David. "Religions of Mesoamerica." 2014.'}
+                    color={'teal'}
+                  />
+                  <br />
+                  <br />
+                  <Heading size='md'>Reciprocity</Heading>
+                  Perhaps the most powerful recurring image in the Maya record
+                  is the notion of mankind being in a reciprocal relationship
+                  with the gods. Reciprocity refers to the act of fair exchange
+                  between two entities. In the case of Maya religion,
+                  reciprocity was the way of giving back to the gods who
+                  provided them with the essentials of life and can be likened
+                  to a contract which bound them in perpetual exchange. This is
+                  important to understand when we are confronted with the
+                  bloodier aspects of Maya ritual and religious life. The Maya
+                  believed that the gods were nourished and that the harmony of
+                  the cosmos had to be maintained through the act of
+                  bloodletting.
+                  <br />
+                  <br />
+                  It was believed that if ritual sacrifice and bloodletting did
+                  not occur that the sacred order and harmony of the universe
+                  would cease and fall into disorder. Therefore, the ongoing
+                  existence of human life and prosperity depended on how
+                  generous the Maya were in giving back the gift of life, which
+                  the gods continued to dispense through children, germination,
+                  rain, sunshine, and animal life.
+                  <ProjectCite
+                    cite={'Carrasco, David. "Religions of Mesoamerica." 2014.'}
+                    num={11}
+                    color={'teal'}
+                  />
+                  <br />
+                  <br />
                   <Heading as={'h4'} size={'md'} pb={1}>
                     Bloodletting and Sacrifice
                   </Heading>
                   The main ritual action that was believed to have sustained
-                  gods and agriculture was ritual bloodletting.
+                  gods and agriculture was ritual bloodletting. Bloodletting
+                  (also called “auto-sacrifice”) is the act of self-cutting or
+                  piercing of a body part to let blood. This blood would be
+                  collected on a piece of paper and burnt as an offering to the
+                  gods.
+                  <ProjectCite
+                    num={12}
+                    cite={
+                      'Davies, Diane E. Maya Gods and Religious Beliefs. Maya Archaeologist. Website. Accessed 10/23/21 '
+                    }
+                    color={'teal'}
+                  />{' '}
+                  <br />
+                  <br />
+                  The passage of ancestors and supernatural beings into the
+                  world was believed to be open in the wound on the human body
+                  through the blood was let, and it was believed that real
+                  reciprocity was achieved between the makers and human kind.
                   <ProjectImage
                     img={bloodletting}
                     alt={'maya bloodletting ritual'}
-                    cite={'Montgomery, John. "Yaxchitlan | Lintel 24"'}
+                    cite={'Lintel 24'}
+                  />
+                  The Mayans are said to have given blood to receive stimulate a
+                  vision in which the gods and ancestors appeared in the world
+                  and where the people would be able to perceive their spiritual
+                  presence. Bloodletting was performed at the dedication of
+                  buildings and monuments, the birth of children, marriage
+                  ceremonies, political events, and at moments of transition in
+                  the calendar.
+                  <ProjectCite
+                    num={13}
+                    cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}
+                    color={'teal'}
+                  />
+                  <br />
+                  The Maya kings and lords offered blood in public settings at
+                  specific intervals of their calendar that held ritual
+                  significances. The action of bloodletting was believed to
+                  integrate all the levels of the cosmos and the social groups
+                  into a sense of wholeness.
+                  <ProjectCite
+                    num={14}
+                    cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}
+                    color={'teal'}
                   />
                 </Box>
               </AccordionPanel>

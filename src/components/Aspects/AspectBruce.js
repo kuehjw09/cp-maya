@@ -44,6 +44,7 @@ const AspectBruce = () => {
         name='Bruce Thao'
         color='green'
         img={background}
+        minread={6}
       />
 
       <Center>
