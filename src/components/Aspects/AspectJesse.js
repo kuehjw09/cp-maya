@@ -42,7 +42,21 @@ const AspectJesse = () => {
         name={'Jesse Kuehl'}
         minread={'9'}
       />
-
+      <Accordion allowToggle w={'full'} maxW={'100vw'} pb={9} px={3}>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box flex='1' textAlign='left' fontSize='xl'>
+                Timeline Game Events
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}></Box>
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
       <Center>
         <Box
           maxW={'100vw'}

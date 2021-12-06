@@ -13,7 +13,11 @@ import {
   AccordionItem,
   AccordionIcon,
   AccordionPanel,
+  List,
+  ListItem,
+  ListIcon,
 } from '@chakra-ui/react'
+import { CheckCircleIcon } from '@chakra-ui/icons'
 
 import React from 'react'
 
@@ -47,6 +51,45 @@ const AspectBruce = () => {
         minread={6}
       />
 
+      <Accordion allowToggle w={'full'} maxW={'100vw'} pb={9} px={3}>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box flex='1' textAlign='left' fontSize='xl'>
+                Timeline Game Events
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
+              <List spacing={5}>
+                <ListItem>
+                  <ListIcon as={CheckCircleIcon} color='green.500' />
+                  (3rd-6th century CE) Plaza of the Moon is built.
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={CheckCircleIcon} color='green.500' />
+                  (3rd-6th century CE) Temple of Quetzalcoatl and Tlaloc is
+                  built.
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={CheckCircleIcon} color='green.500' />
+                  (790 CE ) Puuc Style is developed and in use.
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={CheckCircleIcon} color='green.500' />
+                  (800 CE) Kukulcan Pyramid (El Castile) is built.
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={CheckCircleIcon} color='green.500' />
+                  (7th-10th century CE) Quadrangle of the Nuns is built.
+                </ListItem>
+              </List>
+            </Box>
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
       <Center>
         <Box
           maxW={'100vw'}
