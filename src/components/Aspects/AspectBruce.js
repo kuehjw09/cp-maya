@@ -116,7 +116,9 @@ const AspectBruce = () => {
                     At the core of every Maya city, existed important structures
                     known collectively as centers. This consisted of temples,
                     ballcourts, palaces, and plazas.
-                    <Heading size={'md'}>Palaces</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Palaces
+                    </Heading>
                     Palaces were structures with the purpose of housing the
                     noble.
                     <ProjectCite
@@ -131,7 +133,9 @@ const AspectBruce = () => {
                       alt={''}
                       cite='Quadrangle of the Nuns (government palace)'
                     />
-                    <Heading size={'md'}>Temples</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Temples
+                    </Heading>
                     Temples have restricted access, only individuals of high
                     status could enter temples, such as the king. They were used
                     as religious structures where rituals to the gods and
@@ -142,7 +146,9 @@ const AspectBruce = () => {
                       color='green'
                     />
                     <ProjectImage img={two} alt={''} cite='Kukulcan Pyramid' />
-                    <Heading size={'md'}>Ballcourt</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Ballcourt
+                    </Heading>
                     Ballcourts are a public location, housing the activities of
                     athletic games. They were located within a plaza, close to
                     the temple. Both sides of the ballcourt were closed off with
@@ -159,7 +165,9 @@ const AspectBruce = () => {
                       alt={''}
                       cite='Ballcourt, Uxmal, Mexico'
                     />
-                    <Heading size={'md'}>Plaza</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Plaza
+                    </Heading>
                     Large public grounds where the Maya would gather for events.
                     There are both public plazas with open access, and private
                     plazas surrounded by closed off private buildings.
@@ -186,7 +194,9 @@ const AspectBruce = () => {
                 <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
                   <Text fontSize='md' py={3} fontFamily={'sans-serif'}>
                     <Heading size={'lg'}>Architectural Styles</Heading>
-                    <Heading size={'md'}>Peten Style</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Peten Style
+                    </Heading>
                     <ProjectImage
                       img={peten}
                       cite={
@@ -210,7 +220,9 @@ const AspectBruce = () => {
                       alt={''}
                       cite='Mayan ruins at Uaxactún, Petén, Guatemala.'
                     />
-                    <Heading size={'md'}>Usamacinta Style</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Usamacinta Style
+                    </Heading>
                     <ProjectImage
                       img={usamacanta}
                       cite={
@@ -233,7 +245,9 @@ const AspectBruce = () => {
                       alt={''}
                       cite='Usumacinta Style at Palenque.'
                     />
-                    <Heading size={'md'}>Copan Style</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Copan Style
+                    </Heading>
                     <ProjectImage
                       img={copan}
                       cite={
@@ -253,7 +267,9 @@ const AspectBruce = () => {
                       alt={''}
                       cite='Copan Style in Honduras.'
                     />
-                    <Heading size={'md'}>Pucc Style</Heading>
+                    <Heading size={'md'} color={'green.400'}>
+                      Pucc Style
+                    </Heading>
                     <ProjectImage
                       img={pucc}
                       cite={
@@ -318,13 +334,6 @@ const AspectBruce = () => {
           </Accordion>
         </Box>
       </Center>
-      <Container
-        width={'rem'}
-        maxW={'4xl'}
-        bg={'blackAlpha.20'}
-        rounded={'md'}
-        p={4}
-      ></Container>
     </GridItem>
   )
 }
