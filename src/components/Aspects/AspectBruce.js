@@ -22,6 +22,7 @@ import copan from '../../images/000034.png'
 import pucc from '../../images/000035.png'
 
 const AspectBruce = () => {
+  const citations = [{}, {}, {}]
   return (
     <GridItem colSpan={5}>
       <AspectHeader
@@ -45,28 +46,50 @@ const AspectBruce = () => {
         culture. The Maya had different architectural styles depending on the
         region, which were affected by customs and traditions as well as
         environmental factors, such as landscape.
-        <ProjectCite num={1} cite='' color='green' />
+        <ProjectCite
+          num={1}
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, (New York: Cambridge University Press, 2011), 7'
+          color='green'
+        />
         The appearances of the architecture also differed depending on the
         region, due to differences in resources.{' '}
-        <ProjectCite num={2} cite='' color='green' />
+        <ProjectCite
+          num={2}
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, 7'
+          color='green'
+        />
         <Heading size={'lg'}>Maya Centers</Heading>
         At the core of every Maya city, existed important structures known
         collectively as centers. This consisted of temples, ballcourts, palaces,
         and plazas.
         <Heading size={'md'}>Palaces</Heading>
         Palaces were structures with the purpose of housing the noble.
-        <ProjectCite num={3} cite='' color='green' /> They were large
-        multi-roomed structures that contained stone vaults.
+        <ProjectCite
+          num={3}
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, 10'
+          color='green'
+        />{' '}
+        They were large multi-roomed structures that contained stone vaults.
         <Heading size={'md'}>Temples</Heading>
         Temples have restricted access, only individuals of high status could
         enter temples, such as the king. They were used as religious structures
         where rituals to the gods and ancestors were performed.
-        <ProjectCite num={4} cite='' color='green' />
+        <ProjectCite
+          num={4}
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, 12'
+          color='green'
+        />
         <Heading size={'md'}>Ballcourt</Heading>
         Ballcourts are a public location, housing the activities of athletic
         games. They were located within a plaza, close to the temple. Both sides
         of the ballcourt were closed off with walls/slopes.{' '}
-        <ProjectCite num={5} cite={''} color='green' />
+        <ProjectCite
+          num={5}
+          cite={
+            'Parmington, Alexander, Space and Sculpture of the Classic Maya City, 12'
+          }
+          color='green'
+        />
         <Heading size={'md'}>Plaza</Heading>
         Large public grounds where the Maya would gather for events. There are
         both public plazas with open access, and private plazas surrounded by
@@ -76,7 +99,13 @@ const AspectBruce = () => {
         The Peten Style is characterized by its large platform, supported by big
         structures with small interior space. It had a single entrance and large
         mosaic roof combs. The style is found from Calakmul to Belize.
-        <ProjectCite num={6} cite={''} color='green' />
+        <ProjectCite
+          num={6}
+          cite={
+            'Parmington, Alexander, Space and Sculpture of the Classic Maya City, 7'
+          }
+          color='green'
+        />
         <ProjectImage
           img={peten}
           cite={
@@ -89,7 +118,11 @@ const AspectBruce = () => {
         containing multiple doorways, and having light roof combs. The style
         “This architectural style encompasses sites such as Yaxchilan, Piedras
         Negras, and Bonampak, as well as Palenque.”
-        <ProjectCite num={7} color='green' />
+        <ProjectCite
+          num={7}
+          color='green'
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, 7'
+        />
         <ProjectImage
           img={usamacanta}
           cite={
@@ -100,7 +133,11 @@ const AspectBruce = () => {
         <Heading size={'md'}>Copan Style</Heading>
         The Copan style was the southeastern architectural style containing
         grand staircases, and stucco sculptures.
-        <ProjectCite num={8} cite='' color='green' />
+        <ProjectCite
+          num={8}
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, 7 '
+          color='green'
+        />
         <ProjectImage
           img={copan}
           cite={
@@ -114,7 +151,11 @@ const AspectBruce = () => {
         single or multiple entrances surmounted by a small plain roof comb.
         Stucco sculptures were a typical addition, and the top half of the
         building was decorated with mosaics, while the bottom half was plain.{' '}
-        <ProjectCite num={9} cite='' color='green' />
+        <ProjectCite
+          num={9}
+          cite='Parmington, Alexander, Space and Sculpture of the Classic Maya City, 8'
+          color='green'
+        />
         <ProjectImage
           img={pucc}
           cite={
@@ -127,7 +168,13 @@ const AspectBruce = () => {
         meaning which were used to illustrate religious ideas, as well as social
         association. For example, a palace for the priest would contain quetzal
         birds, engraved into the exterior.
-        <ProjectCite num={10} cite={''} color='green' />
+        <ProjectCite
+          num={10}
+          cite={
+            'Lessing, Erich, Temple of Quetzalcoatl and Tlaloc; Mariposa Palace; Detail of Pillars with reliefs of Quetzal Birds, (N.Y.: Art Resource)'
+          }
+          color='green'
+        />
       </Container>
     </GridItem>
   )
