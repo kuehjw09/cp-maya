@@ -80,44 +80,47 @@ function ProjectPage() {
         <Box maxW={'100vw'} p={1} boxShadow={'lg'}>
           <Tabs isFitted variant='enclosed'>
             <TabList mb='2em'>
-              <Tab>Project Rationale</Tab>
+              <Tab>Project Details</Tab>
               <Tab>The Classic Period Maya</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
                 <List spacing={3} fontWeight={'medium'}>
-                  <Heading>Project Rationale</Heading>
+                  <Heading size='lg'>Project Details</Heading>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     This website is designed to be shared as a multimedia
-                    presentation where each of our members can share their
-                    research.{' '}
-                  </ListItem>
-                  <ListItem>
-                    <ListIcon as={CheckCircleIcon} color='green.500' />
-                    The site is designed to provide users a general history of
-                    the Classical Maya, major events that took place in the
+                    presentation where each of our members can showcase their
+                    research. Our site aims to provide users a general history
+                    of the Classical Maya, major events that took place in the
                     Classical Maya world, and specialized research associated
-                    with the four aspects chosen by each of our members.
+                    with the four aspects chosen by each of our members. The
+                    four aspects of Classic Period Maya civilization we have
+                    selected are religion, social structure, warfare, and
+                    architecture.
                   </ListItem>
+
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     Our project homepage contains four Teaching Tools designed
-                    by our members. These contain the research that each member
-                    has gathered for the project. Click the logo at the top or
-                    bottom of the website to navigate to the homepage.
+                    by our members. Teaching Tools contain the research that
+                    each member has gathered for the project. Click the logo at
+                    the top or bottom of the website to navigate to the
+                    homepage.
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    The four aspects of Classic Period Maya civilization we have
-                    selected are religion, social structure, agriculture, and
-                    architecture.{' '}
+                    Each Teaching Tool includes a list of Timeline Game events
+                    for users to take note of and study as they explore the
+                    site. Click the dropdown menu titled{' '}
+                    <em>Timeline Game Events</em> located in each of the
+                    Teaching Tools to view the events.
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
-                    Each Teaching Tool includes in-text citations representing
-                    the work that is referenced in our research. Click on or
-                    hover over these citations to view the work being cited.
+                    Each Teaching Tool also includes in-text citations
+                    referencing the work that is cited in our research. Click on
+                    or hover over these citations to view the work being cited.
                     <Text fontWeight={'semibold'}>
                       (Example: Substantiated claim from my research.
                       <ProjectCite

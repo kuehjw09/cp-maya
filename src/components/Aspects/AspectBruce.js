@@ -66,12 +66,15 @@ const AspectBruce = () => {
               <List spacing={5}>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (3rd-6th century CE) Plaza of the Moon is built.
+                  (~250 CE.) Plaza of the Moon is built.
                 </ListItem>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (3rd-6th century CE) Temple of Quetzalcoatl and Tlaloc is
-                  built.
+                  (~350 CE) Temple of Quetzalcoatl and Tlaloc is built.
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={CheckCircleIcon} color='green.500' />
+                  (~600 CE) Quadrangle of the Nuns is built.
                 </ListItem>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
@@ -79,11 +82,8 @@ const AspectBruce = () => {
                 </ListItem>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (800 CE) Kukulcan Pyramid (El Castile) is built.
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (7th-10th century CE) Quadrangle of the Nuns is built.
+                  (800 CE) Kukulcan Pyramid (<em>El Castille</em>) is built in
+                  Chitchen Itza.
                 </ListItem>
               </List>
             </Box>
@@ -101,7 +101,6 @@ const AspectBruce = () => {
           <Accordion
             allowToggle
             defaultIndex={[0]}
-            // borderColor={'purple.400'}
             borderColor={'green.400'}
             w={'full'}
             maxW={'100vw'}
@@ -160,6 +159,8 @@ const AspectBruce = () => {
                     At the core of every Maya city, existed important structures
                     known collectively as centers. This consisted of temples,
                     ballcourts, palaces, and plazas.
+                    <br />
+                    <br />
                     <Heading size={'md'} color={'green.400'}>
                       Palaces
                     </Heading>
@@ -239,6 +240,8 @@ const AspectBruce = () => {
                   <Text fontSize='md' py={3} fontFamily={'sans-serif'}>
                     <Heading size={'lg'}>Architectural Styles</Heading>
                     <Heading size={'md'} color={'green.400'}>
+                      <br />
+                      <br />
                       Peten Style
                     </Heading>
                     <ProjectImage

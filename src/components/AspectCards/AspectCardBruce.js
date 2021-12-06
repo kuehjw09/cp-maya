@@ -62,14 +62,6 @@ export default function AspectCardBruce() {
             <Badge borderRadius='full' px='2' colorScheme='green'>
               Architecture
             </Badge>
-            {/* <Badge
-              borderRadius='full'
-              px='2'
-              colorScheme='blue'
-              variant='subtle'
-            >
-              Art
-            </Badge> */}
           </Stack>
           <Heading
             color={useColorModeValue('gray.700', 'white')}
@@ -79,11 +71,13 @@ export default function AspectCardBruce() {
           >
             Classic Period Maya Architecture
           </Heading>
-          <Text color={'gray.500'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+          <Text color={'gray.500'} noOfLines={5}>
+            Architecture plays an important role in understanding the Maya
+            civilization. The layout of cities and the symbols engraved into the
+            architecture provide insight into the social structure, religion,
+            and culture. The Maya had different architectural styles depending
+            on the region, which were affected by customs and traditions as well
+            as environmental factors, such as landscape.
           </Text>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>

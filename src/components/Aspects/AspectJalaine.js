@@ -68,17 +68,13 @@ const AspectJalaine = () => {
                 </ListItem>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (683 AD) Pakal the Great dies.{' '}
-                </ListItem>
-
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
                   (219 AD) First royal dynasty, Tikal dynasty, begins.{' '}
                 </ListItem>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
                   (683 AD) Pakal the Great dies.{' '}
                 </ListItem>
+
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color='green.500' />
                   (751 AD) Longstanding alliances between Mayan cities break
