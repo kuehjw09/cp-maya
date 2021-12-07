@@ -88,7 +88,7 @@ export default function AspectCard() {
           <Avatar src={''} alt={'Author'} name='Jesse Kuehl' bg='teal.400' />
           <Stack direction={'column'} spacing={0} fontSize={'sm'}>
             <Text fontWeight={600}>Jesse</Text>
-            <Text color={'gray.500'}>Oct 10, 2021 · 9min read</Text>
+            <Text color={'gray.500'}>Dec 06, 2021, 2021 · 9min read</Text>
           </Stack>
         </Stack>
       </Box>

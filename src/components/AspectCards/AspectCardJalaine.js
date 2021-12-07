@@ -95,7 +95,7 @@ export default function AspectCardJalaine() {
           <Avatar src={''} alt={'Author'} name='Jalaine Olks' bg='pink.400' />
           <Stack direction={'column'} spacing={0} fontSize={'sm'}>
             <Text fontWeight={600}>Jalaine</Text>
-            <Text color={'gray.500'}>Oct 10, 2021 · 6min read</Text>
+            <Text color={'gray.500'}>Dec 06, 2021 · 6min read</Text>
           </Stack>
         </Stack>
       </Box>

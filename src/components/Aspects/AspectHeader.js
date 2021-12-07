@@ -69,7 +69,7 @@ const AspectHeader = (props) => {
                     {props.name}
                   </Text>
                   <Text color={'gray.300'}>
-                    Oct 10, 2021 · {props.minread}min read
+                    Dec 06, 2021 · {props.minread}min read
                   </Text>
                 </Stack>
               </Stack>
