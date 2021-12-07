@@ -7,7 +7,12 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  List,
+  ListItem,
+  ListIcon,
 } from '@chakra-ui/react'
+
+import { CheckCircleIcon } from '@chakra-ui/icons'
 
 import background from '../../images/000019.jpg'
 import bloodletting from '../../images/000009.jpg'
@@ -45,7 +50,37 @@ const AspectJesse = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}></Box>
+              <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
+                <List spacing={5}>
+                  <ListItem>
+                    <ListItem>
+                      <ListIcon as={CheckCircleIcon} color='green.500' />
+                      (400 BCE) The earliest known solar calendars carved into
+                      stone are in use among the Maya.
+                    </ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (250 CE.) Beginning of the Classic Period of Maya
+                    Civilization as designated by Mesoamerican scholars.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (537 CE.) The 'Star Wars' begin between the city-centers of
+                    Tikal and Calakmul and their smaller vassel states.
+                    Conflicts will last until the mid-8th Century.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (900 CE.) The Classic Period of Maya civilization ends, the
+                    southern lowland region ceremonial centers decline and are
+                    abandoned.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (1550 CE.) The Popol Vuh is committed to writing by the
+                    K'iche' Maya of Guatemala.
+                  </ListItem>
+                </List>
+              </Box>
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
@@ -85,18 +120,16 @@ const AspectJesse = () => {
                     world included agriculture, warfare, heaven, ancestor
                     worship, the underworld, and kingship.
                     <br /> <br />
-                    From the politically and ritually significant ball game that
-                    they played to the recordings of the motions of Venus and
-                    their devotion to recording the passage of time, the source
-                    of these processes was sacred energy which penetrated every
-                    process in a grand cosmic order which was set in place by
-                    the gods.
+                    Maya religious ideas fused with everything they did, from
+                    the politically and ritually significant ball game that they
+                    played, to the recordings of the motions of Venus and their
+                    devotion to recording the passage of time.
                     <br /> <br />
-                    To better understand their fascinating, colorful, and often
-                    mysterious Mesoamerican world, the best place to begin the
-                    study of the Maya is in their cosmology and creation myth,
-                    which can help us understand the significance of their
-                    sacred rituals, calendars, and kings.
+                    To better understand the fascinating, colorful, and often
+                    mysterious Mesoamerican world of the Maya, the best place to
+                    begin with in their cosmology and creation myth, which can
+                    help us understand the significance of their sacred rituals,
+                    calendars, and kings.
                   </Text>
                 </Box>
               </AccordionPanel>
