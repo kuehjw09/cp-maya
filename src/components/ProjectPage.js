@@ -165,14 +165,6 @@ function ProjectPage() {
                     }
                   />
                   <Text>
-                    The Maya flourished from about 250 CE to the tenth century.
-                    This period has been designated by scholars as the Classic
-                    Period. It was the Classic Period Maya that witnessed the
-                    maturation of their writing and calendrical systems, which
-                    reached widespread observance across the three subregions.
-                  </Text>
-                  <br />
-                  <Text>
                     {' '}
                     The Maya established a number of densely populated
                     agricultural bureaucracies and kingdoms around major ritual
@@ -186,9 +178,13 @@ function ProjectPage() {
                   </Text>
                   <br />
                   <Text>
-                    {' '}
-                    At the height of Maya civilization these centers numbered
-                    roughly 40 major and minor cities that were densely
+                    The Maya flourished from about 250 CE to the tenth century.
+                    This period has been designated by scholars as the Classic
+                    Period. It was the Classic Period Maya that witnessed the
+                    maturation of their writing and calendrical systems, which
+                    reached widespread observance across the three subregions.
+                    At the height of the Classic Period, Maya ceremonial centers
+                    numbered roughly 40 major and minor cities that were densely
                     populated. Population estimates range from five thousand to
                     fifty thousand people in each city.
                     <ProjectCite
@@ -211,13 +207,14 @@ function ProjectPage() {
                     and repeat itself again.
                     <br />
                     <br />
-                    They are famous for their pictograms and glyphs. They
-                    developed complex systems of writing and numbering and
-                    derived mathematical and astronomical concepts, putting them
-                    to use in a manner that is considered to be highly advanced
-                    for their time and is clearly evidenced givin the scope and
-                    accuracy of the famous <em>Maya Long Count Calender</em>.
-                    These advancements are puzzling when combined with the fact
+                    They are famous for their pictograms and glyphs, and they
+                    developed complex systems of writing and numbering. The Maya
+                    also derived mathematical and astronomical concepts and put
+                    them to use in a manner that is considered to be highly
+                    advanced for their time. This can be evidenced given the
+                    scope and accuracy of the famous{' '}
+                    <em>Maya Long Count Calender</em>. The traits of this
+                    culture are even more puzzling when combined with the fact
                     that the Maya were also a stone age society that did not use
                     iron tools or even the wheel.
                     <br />
