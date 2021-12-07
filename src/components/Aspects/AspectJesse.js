@@ -53,11 +53,11 @@ const AspectJesse = () => {
               <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
                 <List spacing={5}>
                   <ListItem>
-                    <ListItem>
-                      <ListIcon as={CheckCircleIcon} color='green.500' />
-                      (400 BCE) The earliest known solar calendars carved into
-                      stone are in use among the Maya.
-                    </ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (400 BCE) The earliest known solar calendars carved into
+                    stone are in use among the Maya.
+                  </ListItem>
+                  <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     (250 CE.) Beginning of the Classic Period of Maya
                     Civilization as designated by Mesoamerican scholars.

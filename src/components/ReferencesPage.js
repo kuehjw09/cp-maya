@@ -89,6 +89,19 @@ function ReferencesPage() {
                 Revised Edition ed. New York: Simon & Schuster, 1996.
               </li>
               <li>
+                Webster, David, “Conception of Maya War”, Journal of World
+                Prehistory Vol. 14, No.1, March 2000.{' '}
+                <a
+                  href={
+                    'https://www.jstor.org/stable/25801154?seq=7#metadata_info_tab_contents'
+                  }
+                  isExternal
+                  color='teal.500'
+                >
+                  Link.
+                </a>
+              </li>
+              <li>
                 Webster, David. "The Uses and Abuses of the Anicent Maya ." PDF
                 . Last modified , 2009.{' '}
                 <a
