@@ -25,12 +25,12 @@ function ReferencesPage() {
           <Heading fontWeight={'light'} pb={3}>
             References Page
           </Heading>{' '}
-          <Text fontSize={'lg'}>
+          <Text fontSize={'lg'} fontWeight={'normal'}>
             Use this page to explore further, or to view the sources curated in
             our research.
           </Text>
-          <Stack fontFamily={'monospace'} fontSize={'sm'} py={9} spacing={3}>
-            <List id='Alphabeta' spacing={3}>
+          <Stack fontFamily={'monospace'} fontSize={'sm'} py={9} spacing={4}>
+            <List id='Alphabeta' spacing={4}>
               <li>
                 Carrasco, David. Religions of Mesoamerica. Second Edition ed.
                 Long Grove, IL: Waveland Press, Inc., 2014, 113-147.

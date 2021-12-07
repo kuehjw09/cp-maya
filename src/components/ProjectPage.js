@@ -10,6 +10,7 @@ import {
   useBreakpointValue,
   Flex,
   VStack,
+  Divider,
 } from '@chakra-ui/react'
 
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
@@ -85,20 +86,22 @@ function ProjectPage() {
             </TabList>
             <TabPanels>
               <TabPanel>
-                <List spacing={3} fontWeight={'medium'}>
+                <List spacing={4} fontWeight={'normal'} fontSize={'lg'}>
                   <Heading size='lg'>Project Details</Heading>
                   <ListItem>
-                    This website is designed to be shared as a multimedia
-                    presentation where each of our members can showcase their
-                    research. Our goal is to provide users a general history of
-                    the Classical Maya, major events that took place in the
-                    Classical Maya world, and specialized research associated
-                    with the four aspects of Classic Maya civilization chosen by
-                    each of our members. The four aspects of Classic Period Maya
-                    civilization we have selected are religion, social
-                    structure, warfare, and architecture.
+                    <Text fontSize={'lg'} fontWeight={'normal'}>
+                      This website is designed to be shared as a multimedia
+                      presentation where each of our members can showcase their
+                      research. Our goal is to provide users a general history
+                      of the Classical Maya, major events that took place in the
+                      Classical Maya world, and specialized research associated
+                      with the four aspects of Classic Maya civilization chosen
+                      by each of our members. The four aspects of Classic Period
+                      Maya civilization we have selected are religion, social
+                      structure, warfare, and architecture.
+                    </Text>
                   </ListItem>
-
+                  <Divider colorScheme={'blue'} />
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     Our project homepage contains four Teaching Tools designed
@@ -118,10 +121,11 @@ function ProjectPage() {
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     Each Teaching Tool also includes in-text citations
-                    referencing the work that is cited in our research. Click on
-                    or hover over these citations to view the work being cited.
+                    referencing the works that are cited in our research. Click
+                    on or hover over these citations to view the work being
+                    cited.
                     <Text fontWeight={'semibold'}>
-                      (Example: Substantiated claim from my research.
+                      Example: Substantiated claim from my research.
                       <ProjectCite
                         cite={
                           'Citation, Example. "Collaborative Group Project: The Classic Period Maya." 2021. HIS 103 | World Civilizations I.'
@@ -129,7 +133,6 @@ function ProjectPage() {
                         num={'1'}
                         color={'blue'}
                       />
-                      )
                     </Text>
                   </ListItem>
                   <ListItem>
@@ -141,14 +144,18 @@ function ProjectPage() {
                     Classic Period Maya.
                   </ListItem>
                 </List>
+                <Divider colorScheme={'blue'} m={4} />
               </TabPanel>
               <TabPanel>
-                <Stack>
+                <Stack spacing={4}>
                   <Heading>The Classic Period Maya</Heading>
-                  We have selected the Classic Period Maya as our civilization
-                  of interest this semester and created this website to showcase
-                  our research. Read through this section to learn a general
-                  history of this civilization.
+                  <Text fontSize={'large'}>
+                    We have selected the Classic Period Maya as our civilization
+                    of interest this semester and created this website to
+                    showcase our research. Read through this section to learn a
+                    general history of this civilization.
+                    <Divider colorScheme={'blue'} m={4} />
+                  </Text>
                   <Text>
                     The Maya occupied a region of Mesoamerica that includes what
                     is today Guatemala, Belize, the Yucatan Peninsula, and the
@@ -243,8 +250,8 @@ function ProjectPage() {
                     be witnessed at sites like Copan, Piedras Negras, and
                     Palenque.
                   </Text>
-                  <br />
-                  <br />
+
+                  <Divider colorScheme={'blue'} m={4} />
                 </Stack>
               </TabPanel>
             </TabPanels>
