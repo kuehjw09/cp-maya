@@ -237,16 +237,9 @@ const AspectJesse = () => {
                   cosmology influenced their mythology and their ritual life, as
                   it was believed that the things that happened in the sky were
                   a macrocosm of the processes on earth and those happening in
-                  the underworld. <br />
-                  <br />
-                  For the Maya, everything happening in the past, present, and
-                  future, and everything happening in the sky and on earth was
-                  constantly fused together. They experienced their world as an
-                  ordered and deeply sacred place that existed within the
-                  progressions of a great cosmic cycle bound to begin, end, and
-                  repeat itself again. Exploring Maya cosmology further requires
-                  us to look at the Popol Vuh for clues about the significance
-                  of their rituals and mythology.
+                  the underworld. Exploring Maya cosmology further requires us
+                  to look at the Popol Vuh for clues about the significance of
+                  their rituals and mythology.
                 </Box>
               </AccordionPanel>
             </AccordionItem>
@@ -546,8 +539,6 @@ const AspectJesse = () => {
                     }
                     size={'sm'}
                   />
-                  <br />
-                  <br />
                   The immense power of kingship was carried out through the king
                   by deities and royal ancestors who were believed to act
                   through him. These sources of energy were believed to be
@@ -632,7 +623,7 @@ const AspectJesse = () => {
                   The Mayans are also said to have given blood to receive
                   stimulate a vision in which the gods and ancestors appeared in
                   the world and where the people would be able to perceive their
-                  spiritual presence.{' '}
+                  spiritual presence.
                   <ProjectCite
                     num={13}
                     cite={"Carrasco, David. 'Religions of Mesoamerica.' 2014."}

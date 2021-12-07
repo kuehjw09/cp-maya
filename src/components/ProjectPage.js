@@ -78,7 +78,7 @@ function ProjectPage() {
       </Center>
       <Center>
         <Box maxW={'100vw'} p={1} boxShadow={'lg'}>
-          <Tabs isFitted variant='enclosed'>
+          <Tabs isFitted variant='enclosed' w={'50rem'} maxW={'100vw'}>
             <TabList mb='2em'>
               <Tab>Project Details</Tab>
               <Tab>The Classic Period Maya</Tab>
@@ -91,13 +91,13 @@ function ProjectPage() {
                     <ListIcon as={CheckCircleIcon} color='green.500' />
                     This website is designed to be shared as a multimedia
                     presentation where each of our members can showcase their
-                    research. Our site aims to provide users a general history
-                    of the Classical Maya, major events that took place in the
+                    research. Our goal is to provide users a general history of
+                    the Classical Maya, major events that took place in the
                     Classical Maya world, and specialized research associated
-                    with the four aspects chosen by each of our members. The
-                    four aspects of Classic Period Maya civilization we have
-                    selected are religion, social structure, warfare, and
-                    architecture.
+                    with the four aspects of Classic Maya civilization chosen by
+                    each of our members. The four aspects of Classic Period Maya
+                    civilization we have selected are religion, social
+                    structure, warfare, and architecture.
                   </ListItem>
 
                   <ListItem>
@@ -203,12 +203,24 @@ function ProjectPage() {
                     cite={'Late-Classic Maya ruins at Tikal'}
                   />
                   <Text>
-                    {' '}
-                    What remains of the Maya are the native Guatemalans (40% of
-                    which are living decedents of the Maya) and their palaces,
-                    pyramids, temples, and stone plazas. Fortunately for
-                    Mesoamerican historians these are plentifully adorned with
-                    the their writing, glyphs, and pictograms.
+                    For the Maya, everything happening in the past, present, and
+                    future, and everything happening in the sky and on earth was
+                    constantly fused together. They experienced their world as
+                    an ordered and deeply sacred place that existed within the
+                    progressions of a great cosmic cycle bound to begin, end,
+                    and repeat itself again.
+                    <br />
+                    <br />
+                    They are famous for their pictograms and glyphs. They
+                    developed complex systems of writing and numbering and
+                    derived mathematical and astronomical concepts, putting them
+                    to use in a manner that is considered to be highly advanced
+                    for their time and is clearly evidenced givin the scope and
+                    accuracy of the famous <em>Maya Long Count Calender</em>.
+                    These advancements are puzzling when combined with the fact
+                    that the Maya were also a stone age society that did not use
+                    iron tools or even the wheel.
+                    <br />
                     <ProjectImage
                       img={copan}
                       alt={'stairway at copan'}
@@ -216,7 +228,27 @@ function ProjectPage() {
                         '"The Magnificent hieroglyphic stairway at Copan is the longest hieroglyphic text in existense." - Carrasco, David. "Religions of Mesoamerica." 118.'
                       }
                     />
+                    <Text>
+                      {' '}
+                      What remains of the Maya are the native Guatemalans (40%
+                      of which are living decedents of the Maya), their pottery,
+                      and their palaces, cermonial centers, pyramids, temples,
+                      and stone plazas. Fortunately for Mesoamerican historians
+                      these are also plentifully adorned with the their writing,
+                      glyphs, and pictograms.
+                    </Text>
+                    <br />
+                    Their devotion to the passage of time and of solar and
+                    celestial observation resulted in the construction of
+                    buildings and building groups that were oriented with the
+                    four cardinal directions. Building alignments in the Maya
+                    world were also aligned with celestial events and objects at
+                    sites like Chitchen Itza. Monumental Maya architecture can
+                    be witnessed at sites like Copan, Piedras Negras, and
+                    Palenque.
                   </Text>
+                  <br />
+                  <br />
                 </Stack>
               </TabPanel>
             </TabPanels>
