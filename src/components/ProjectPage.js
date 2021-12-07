@@ -86,10 +86,10 @@ function ProjectPage() {
             </TabList>
             <TabPanels>
               <TabPanel>
-                <List spacing={4} fontWeight={'normal'} fontSize={'lg'}>
+                <List spacing={4} fontWeight={'normal'} fontSize={'md'}>
                   <Heading size='lg'>Project Details</Heading>
                   <ListItem>
-                    <Text fontSize={'lg'} fontWeight={'normal'}>
+                    <Text fontWeight={'normal'}>
                       This website is designed to be shared as a multimedia
                       presentation where each of our members can showcase their
                       research. Our goal is to provide users a general history
@@ -149,7 +149,7 @@ function ProjectPage() {
               <TabPanel>
                 <Stack spacing={4}>
                   <Heading>The Classic Period Maya</Heading>
-                  <Text fontSize={'large'}>
+                  <Text fontSize={'medium'}>
                     We have selected the Classic Period Maya as our civilization
                     of interest this semester and created this website to
                     showcase our research. Read through this section to learn a
