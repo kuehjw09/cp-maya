@@ -88,7 +88,6 @@ function ProjectPage() {
                 <List spacing={3} fontWeight={'medium'}>
                   <Heading size='lg'>Project Details</Heading>
                   <ListItem>
-                    <ListIcon as={CheckCircleIcon} color='green.500' />
                     This website is designed to be shared as a multimedia
                     presentation where each of our members can showcase their
                     research. Our goal is to provide users a general history of
