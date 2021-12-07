@@ -46,46 +46,47 @@ const AspectBruce = () => {
         img={background}
         minread={6}
       />
-
-      <Accordion allowToggle w={'50rem'} maxW={'100vw'} pb={9} px={3}>
-        <AccordionItem>
-          <h2>
-            <AccordionButton>
-              <Box flex='1' textAlign='left' fontSize='xl'>
-                Timeline Game Events
+      <Center>
+        <Accordion allowToggle w={'50rem'} maxW={'100vw'} pb={9} px={3}>
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box flex='1' textAlign='left' fontSize='xl'>
+                  Timeline Game Events
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
+                <List spacing={5}>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (~250 CE.) Plaza of the Moon is built.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (~350 CE) Temple of Quetzalcoatl and Tlaloc is built.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (~600 CE) Quadrangle of the Nuns is built.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (790 CE ) Puuc Style is developed and in use.
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (800 CE) Kukulcan Pyramid (<em>El Castille</em>) is built in
+                    Chitchen Itza.
+                  </ListItem>
+                </List>
               </Box>
-              <AccordionIcon />
-            </AccordionButton>
-          </h2>
-          <AccordionPanel pb={4}>
-            <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
-              <List spacing={5}>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (~250 CE.) Plaza of the Moon is built.
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (~350 CE) Temple of Quetzalcoatl and Tlaloc is built.
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (~600 CE) Quadrangle of the Nuns is built.
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (790 CE ) Puuc Style is developed and in use.
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (800 CE) Kukulcan Pyramid (<em>El Castille</em>) is built in
-                  Chitchen Itza.
-                </ListItem>
-              </List>
-            </Box>
-          </AccordionPanel>
-        </AccordionItem>
-      </Accordion>
+            </AccordionPanel>
+          </AccordionItem>
+        </Accordion>
+      </Center>
       <Center>
         <Box
           maxW={'100vw'}

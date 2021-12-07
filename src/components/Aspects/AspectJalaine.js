@@ -6,6 +6,7 @@ import {
   List,
   ListItem,
   ListIcon,
+  Center,
 } from '@chakra-ui/react'
 import {
   Accordion,
@@ -41,57 +42,59 @@ const AspectJalaine = () => {
         minread='6'
         img={background}
       />
-      <Accordion
-        allowToggle
-        borderColor={'pink.400'}
-        w={'50rem'}
-        maxW={'100vw'}
-        pb={9}
-        px={3}
-      >
-        <AccordionItem>
-          <h2>
-            <AccordionButton>
-              <Box flex='1' textAlign='left' fontSize='xl'>
-                Timeline Game Events
-              </Box>
-              <AccordionIcon />
-            </AccordionButton>
-          </h2>
-          <AccordionPanel pb={4}>
-            <Box fontWeight={'semibold'} fontSize={'lg'} rounded={'md'}>
-              <List spacing={6}>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (300 BC) Cities and social hierarchy is developed within
-                  region.{' '}
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (219 AD) First royal dynasty, Tikal dynasty, begins.{' '}
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (683 AD) Pakal the Great dies.{' '}
-                </ListItem>
+      <Center>
+        <Accordion
+          allowToggle
+          borderColor={'pink.400'}
+          w={'50rem'}
+          maxW={'100vw'}
+          pb={9}
+          px={3}
+        >
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box flex='1' textAlign='left' fontSize='xl'>
+                  Timeline Game Events
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              <Box fontWeight={'semibold'} fontSize={'lg'} rounded={'md'}>
+                <List spacing={6}>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (300 BC) Cities and social hierarchy is developed within
+                    region.{' '}
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (219 AD) First royal dynasty, Tikal dynasty, begins.{' '}
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (683 AD) Pakal the Great dies.{' '}
+                  </ListItem>
 
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (751 AD) Longstanding alliances between Mayan cities break
-                  down leading to conflict and a major economic and
-                  socio-economic depression.{' '}
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color='green.500' />
-                  (1441) Huge rebellion against King Cocom. Cities are now ruled
-                  by local chiefs and not a king. This is the start of the
-                  decline of the Mayan empire.
-                </ListItem>
-              </List>
-            </Box>
-          </AccordionPanel>
-        </AccordionItem>
-      </Accordion>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (751 AD) Longstanding alliances between Mayan cities break
+                    down leading to conflict and a major economic and
+                    socio-economic depression.{' '}
+                  </ListItem>
+                  <ListItem>
+                    <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (1441) Huge rebellion against King Cocom. Cities are now
+                    ruled by local chiefs and not a king. This is the start of
+                    the decline of the Mayan empire.
+                  </ListItem>
+                </List>
+              </Box>
+            </AccordionPanel>
+          </AccordionItem>
+        </Accordion>
+      </Center>
       <Container
         width={'rem'}
         maxW={'4xl'}
