@@ -44,7 +44,7 @@ const AspectJalaine = () => {
       <Accordion
         allowToggle
         borderColor={'pink.400'}
-        w={'full'}
+        w={'50rem'}
         maxW={'100vw'}
         pb={9}
         px={3}

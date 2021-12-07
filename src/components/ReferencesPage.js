@@ -7,7 +7,6 @@ import {
   Stack,
   Text,
   useColorModeValue,
-  Link,
   List,
 } from '@chakra-ui/react'
 
@@ -19,8 +18,9 @@ function ReferencesPage() {
           bg={useColorModeValue('whiteAlpha.400', 'blackAlpha.400')}
           rounded={'md'}
           boxShadow={'xl'}
-          maxW={'80vw'}
           p={6}
+          w={'50rem'}
+          maxW={'100vw'}
         >
           <Heading fontWeight={'light'} pb={3}>
             References Page

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Center, Box, Image, Text } from '@chakra-ui/react'
 
 const ProjectImage = (props) => {

@@ -1,14 +1,6 @@
 import React from 'react'
 
-import {
-  GridItem,
-  Text,
-  Center,
-  Stack,
-  Heading,
-  Image,
-  Box,
-} from '@chakra-ui/react'
+import { GridItem, Text, Center, Stack, Heading, Box } from '@chakra-ui/react'
 import {
   Accordion,
   AccordionItem,
@@ -19,7 +11,6 @@ import {
 
 import background from '../../images/000019.jpg'
 import bloodletting from '../../images/000009.jpg'
-import kukulkan from '../../images/000008.jpg'
 import cosmology from '../../images/000006.png'
 import cenotes from '../../images/000007.jpg'
 import dartgun from '../../images/000013.jpg'
@@ -42,7 +33,7 @@ const AspectJesse = () => {
         name={'Jesse Kuehl'}
         minread={'9'}
       />
-      <Accordion allowToggle w={'full'} maxW={'100vw'} pb={9} px={3}>
+      <Accordion allowToggle w={'50rem'} maxW={'100vw'} pb={9} px={3}>
         <AccordionItem>
           <h2>
             <AccordionButton>

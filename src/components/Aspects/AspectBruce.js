@@ -2,12 +2,8 @@ import {
   GridItem,
   Text,
   Center,
-  Stack,
   Box,
   Heading,
-  Image,
-  Container,
-  Avatar,
   Accordion,
   AccordionButton,
   AccordionItem,
@@ -51,7 +47,7 @@ const AspectBruce = () => {
         minread={6}
       />
 
-      <Accordion allowToggle w={'full'} maxW={'100vw'} pb={9} px={3}>
+      <Accordion allowToggle w={'50rem'} maxW={'100vw'} pb={9} px={3}>
         <AccordionItem>
           <h2>
             <AccordionButton>
