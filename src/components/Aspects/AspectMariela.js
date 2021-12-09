@@ -49,18 +49,27 @@ const AspectMariela = () => {
                 <List spacing={5}>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (278 CE) An early war started between Tikal and Uxtacun
+                    around
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (546 CE) Hok Kauil ruler of Caracol took over Naranjo
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (562 CE) Wars between Tikal and Caracol started and ended
+                    with Tikal’s defeat
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (652 CE)Tikal kills and sacrificed Calakuml king which
+                    tension increases with the Tikal/Caracol wars
                   </ListItem>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
+                    (700CE) Rivalry Wars had started to worsen which ended up
+                    their collapse
                   </ListItem>
                 </List>
               </Box>
@@ -75,7 +84,21 @@ const AspectMariela = () => {
         rounded={'md'}
         p={4}
       >
-        <Heading size={'lg'}>Summary of Maya Agriculture</Heading>
+        <Heading>Introduction</Heading>
+        There was a myth that went around with historians that talked about how
+        the Classic Mayan Civilization were a very peaceful civilization just
+        because of their golden age of constructing their own Solar Calendar and
+        their temples. Essentially, they were a violent civilization because
+        their significant wars were always in their own cities rather than other
+        civilizations. Their collapse is still a mystery for many historians,
+        however, it is known that the Mayans suffered poor harvesting which led
+        to kings taking over major cities and also sacrificing their enemies.
+        Although they fought wars and even built temples or walls to show how
+        many wars they fought some of them collapsed or were broken down by
+        other Mayan kings or the Spainards.
+        <br />
+        <br />
+        <Heading size={'lg'}>Maya Agriculture</Heading>
         During the Classic era of the Mayan Civilization (250 CE - 900 CE),
         although it was the golden age for the Mayans, their population in land
         increased around by 324,000 km2 around the southern parts of Mexico,

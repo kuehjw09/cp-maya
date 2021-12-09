@@ -78,11 +78,19 @@ export default function AspectCardMariela() {
           >
             Mayan Agriculture and Warfare
           </Heading>
-          <Text color={'gray.500'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+          <Text color={'gray.500'} noOfLines={5}>
+            There was a myth that went around with historians that talked about
+            how the Classic Mayan Civilization were a very peaceful civilization
+            just because of their golden age of constructing their own Solar
+            Calendar and their temples. Essentially, they were a violent
+            civilization because their significant wars were always in their own
+            cities rather than other civilizations. Their collapse is still a
+            mystery for many historians, however, it is known that the Mayans
+            suffered poor harvesting which led to kings taking over major cities
+            and also sacrificing their enemies. Although they fought wars and
+            even built temples or walls to show how many wars they fought some
+            of them collapsed or were broken down by other Mayan kings or the
+            Spainards.
           </Text>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
@@ -94,7 +102,7 @@ export default function AspectCardMariela() {
           />
           <Stack direction={'column'} spacing={0} fontSize={'sm'}>
             <Text fontWeight={600}>Mariela</Text>
-            <Text color={'gray.500'}>Oct 10, 2021 · 6min read</Text>
+            <Text color={'gray.500'}>Dec 06, 2021 · 6min read</Text>
           </Stack>
         </Stack>
       </Box>
