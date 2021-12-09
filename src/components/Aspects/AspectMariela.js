@@ -45,7 +45,7 @@ const AspectMariela = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <Box fontWeight={'light'} fontSize={'lg'} rounded={'md'}>
+              <Box fontWeight={'semibold'} fontSize={'lg'} rounded={'md'}>
                 <List spacing={5}>
                   <ListItem>
                     <ListIcon as={CheckCircleIcon} color='green.500' />
