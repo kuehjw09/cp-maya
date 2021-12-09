@@ -20,6 +20,7 @@ import map from '../../images/000047.jpg'
 import HM618 from '../../images/000046.png'
 import sword from '../../images/000045.png'
 import ProjectImage from '../ProjectImage'
+import ProjectCite from '../ProjectCite'
 import AspectHeader from './AspectHeader'
 
 const AspectMariela = () => {
@@ -103,16 +104,27 @@ const AspectMariela = () => {
         although it was the golden age for the Mayans, their population in land
         increased around by 324,000 km2 around the southern parts of Mexico,
         Guatemala,El Salvador, and Honduras, on the highlands of Mesoamerica
-        which is full of tropical forests. In the lowlands of Mesoamerica in
-        which the Mayan Civilization occupied around 250,000 km2 in western area
-        of Belize because in the Lowlands there was more humidity than in
-        highlands and the more humidity there was the more rain they would have
-        a near source of water to grow crops, slash and burn methods were used
-        to clear forests. However, historians had discovered that the Highlands
-        and Lowlands of Mesoamerica would have a big amount of droughts, fires,
-        storms, and insect infestation, mostly without even looking into risks
-        or having like a Plan B to were to save their harvest which lead to
-        Mayans to scatter around to look for rich soil.
+        which is full of tropical forests.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={1}
+          color={'orange'}
+        />{' '}
+        In the lowlands of Mesoamerica in which the Mayan Civilization occupied
+        around 250,000 km2 in western area of Belize because in the Lowlands
+        there was more humidity than in highlands and the more humidity there
+        was the more rain they would have a near source of water to grow crops,
+        slash and burn methods were used to clear forests. However, historians
+        had discovered that the Highlands and Lowlands of Mesoamerica would have
+        a big amount of droughts, fires, storms, and insect infestation, mostly
+        without even looking into risks or having like a Plan B to were to save
+        their harvest which lead to Mayans to scatter around to look for rich
+        soil.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={2}
+          color={'orange'}
+        />{' '}
         <ProjectImage
           img={map}
           alt={'Map of the Maya empire'}
@@ -121,9 +133,14 @@ const AspectMariela = () => {
         />{' '}
         Mayans did not have many tools to use for harvesting because most of the
         minerals went to creating weapons and all of harvesting was by human
-        labor since the their were simpler than advanced; also, it is very easy
-        to tell that Mayans didn’t have horses, cows, or sheep to help with
-        carrying crops or heavy metals to a certain location.
+        labor since the their were simpler than advanced
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={3}
+          color={'orange'}
+        />{' '}
+        ; also, it is very easy to tell that Mayans didn’t have horses, cows, or
+        sheep to help with carrying crops or heavy metals to a certain location.
         <br />
         <br />
         <Heading size={'md'} color={'orange.400'}>
@@ -131,10 +148,21 @@ const AspectMariela = () => {
         </Heading>
         Typically Mayans lived in independent cities like Tikal, Copan, and
         Palenque were major political cities where nobleles, priests, and Kings
-        would rule over a certain city. The Classic Wars were either motivated
-        by political movements, territorial conquest, protection of frontiers,
-        and the elimination of enemies, or rituals which most wars were caused
-        by looking for sacrifices from nobles or kings to supplement their gods.
+        would rule over a certain city.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={4}
+          color={'orange'}
+        />{' '}
+        The Classic Wars were either motivated by political movements,
+        territorial conquest, protection of frontiers, and the elimination of
+        enemies, or rituals which most wars were caused by looking for
+        sacrifices from nobles or kings to supplement their gods.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={5}
+          color={'orange'}
+        />{' '}
         However, there is not enough evidence to show how many Wars did the
         Mayans fought because there are patterns in Architecture in which Mayans
         would portray their wars in a temple or wall but some of them collapsed
@@ -150,10 +178,20 @@ const AspectMariela = () => {
         however, the tension was so famously big that the City of Caracol wanted
         to independent from Tikal the major city with all the amount of pressure
         of political stabilization which led to a civil war in the end Caracol
-        won. A ruler named Hok Kauli, had a monument that had 8 captives of
-        different cities to show their descendants that the ruler of Caracol was
-        a powerful ruler alongside with his allies who defeated the city of
-        Tikal.
+        won.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={6}
+          color={'orange'}
+        />{' '}
+        A ruler named Hok Kauli, had a monument that had 8 captives of different
+        cities to show their descendants that the ruler of Caracol was a
+        powerful ruler alongside with his allies who defeated the city of Tikal.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={7}
+          color={'orange'}
+        />{' '}
         <br />
         <br />
         <Heading size={'md'} color={'orange.400'}>
@@ -163,12 +201,22 @@ const AspectMariela = () => {
         were very simplistic, warriors would wear a costume with feline skin to
         be know as a deity which is mostly the jaguar that represents war and
         deity for warriors to be superior to their enemies, would use throwing
-        spears and spikes to kill and capture their enemies. Some of their
-        weapons are a little confusing to understand what were they used for
-        which is a weapon that is almost shaped like a horseshoe, it seems to be
-        made from stone or clay, the round-oval ‘horseshoe’ shape is more of a
-        brick color with designs of an animal like a feline animal due to shape
-        of a head and a tail.
+        spears and spikes to kill and capture their enemies.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={8}
+          color={'orange'}
+        />{' '}
+        Some of their weapons are a little confusing to understand what were
+        they used for which is a weapon that is almost shaped like a horseshoe,
+        it seems to be made from stone or clay, the round-oval ‘horseshoe’ shape
+        is more of a brick color with designs of an animal like a feline animal
+        due to shape of a head and a tail.
+        <ProjectCite
+          cite=' Webster, David, “Conception of Maya War”, Journal of World Prehistory Vol. 14, No.1, March 2000'
+          num={9}
+          color={'orange'}
+        />{' '}
         <ProjectImage img={HM618} alt={''} cite={''} size={'xs'} />
         My questions was what did The Mayans expected for the prisoners to feel
         after they been hit by this weapon, if landed on the neck, should they
